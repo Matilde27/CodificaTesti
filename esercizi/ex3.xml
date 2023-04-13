@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+
+    <htmlCode>
+
+        <![CDATA[ 
+            <h1>Titolo</h1>
+            <h2>Sottotitolo</h2> 
+            <p>Paragrafo</p>
+        ]]>]
+
+    </htmlCode>
+
+</root>

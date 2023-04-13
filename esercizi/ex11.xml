@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+
+    <facsimile>
+        <surface>
+            <graphic url='Bellini.png' width='826.4px' height='552.4px' />
+            <zone xml:id="verde" ulx="13" uly="16" lrx="397" lry="88" />
+            <zone xml:id="celeste" ulx="12" uly="94" lrx="403" lry="318" />
+            <zone xml:id="blu" ulx="13" uly="323" lrx="403" lry="543" />
+            <zone xml:id="rosso" ulx="414" uly="10" lrx="816" lry="70" />
+            <zone xml:id="arancione" ulx="445" uly="74" lrx="804" lry="531" />
+            <zone xml:id="fucsia" ulx="623" uly="496" lrx="807" lry="543" /> 
+        </surface>
+    </facsimile>
+
+    <text>
+
+        <body>
+            <div facs="verde"> <!-- rettangolo verde -->
+                <p><stamp>Timbro</stamp></p>
+            </div>
+
+            <div facs="celeste"> <!-- rettangolo celeste -->
+                <p>a <unclear reason="illegible" cert="low">Monfiero</unclear></p>
+                <p><stamp>Timbro</stamp></p>
+                <p><unclear reason="illegible" cert="low">Monfiero le</unclear> <roleName>Conte</roleName> <persName><surname>Pepoli</surname></persName></p>
+                <p><gap reason="illegible" extent="1" unit="line"/></p>
+                <p><gap reason="illegible" extent="1" unit="line"/></p>
+            </div>
+
+            <div facs="blu"> <!-- rettangolo blu -->
+                <p><persName><forename>Laura</forename></persName> del</p>
+                <p><gap reason="illegible" extent="4" unit="lines"/></p>
+                <p><stamp>Timbro</stamp></p>
+            </div>
+
+            <div facs="rosso"> <!-- rettangolo rosso -->
+                <div>
+                    <p><gap reason="illegible" extent="4" unit="chars"/> 26:</p>
+                    <p><unclear reason="illegible" cert="low">Guten</unclear> _ <unclear reason="illegible" cert="low">W:14</unclear> By <gap reason="illegible" extent="8" unit="chars"/></p>
+                    <p><unclear reason="illegible" cert="low">le Nevilly</unclear></p>
+                </div>
+            </div>
+
+            <div facs="arancione"> <!-- rettangolo arancione -->
+                <div>
+                    <p>Mio caro <name><unclear reason="illegible" cert="low">Carlino</unclear></name></p>
+                    <p>Avendo <gap reason="illegible" extent="5" unit="chars"/> <unclear reason="illegible" cert="low">tefo</unclear> l'intero diretto</p>
+                    <p><gap reason="illegible" extent="8" unit="lines"/></p>
+                </div>
+            </div>
+
+            <div facs="fucsia"> <!-- rettangolo fucsia -->
+                <p><gap reason="illegible" extent="2" unit="lines"/></p>
+            </div>
+            
+        </body>
+
+    </text>
+
+</root>

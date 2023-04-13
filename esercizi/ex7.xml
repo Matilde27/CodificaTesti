@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+
+    <body>
+    
+    <div n="capitolo1">
+        <p>L'informatica umanistica, o digital humanities o humanities computing, è un campo di studi che nasce dall'integrazione di procedure computazionali e sistemi multimediali nelle discipline umanistiche, relativamente in particolare alla rappresentazione dei dati, alla formalizzazione delle fasi di ricerca e alle tecniche di diffusione dei risultati.</p>
+        <p>Il rapporto tra le due componenti si esprime non solo a livello applicativo, ovvero nell'impiego di strumenti informatici per rendere più veloci ed efficienti le ricerche delle discipline umanistiche, ma anche a livello metodologico, ovvero nell'integrazione di approcci al fine di generare nuovi paradigmi di elaborazione dei dati.</p>
+        <p>I campi d'applicazione dell'informatica umanistica coinvolgono gli studi di linguistica, filologia, letteratura, storia, archeologia, storia delle arti figurative, musicologia, interazione uomo-macchina, biblioteconomia e il settore della didattica.</p>
+    </div>
+
+    <div n="capitolo2">
+        <p>L'espressione "informatica umanistica", usata in italiano come traduzione di Humanities Computing prima e di Digital Humanities poi, si è diffusa a partire dai primi anni '90 per indicare una serie di esperienze di formalizzazione delle discipline umanistiche avviate da metà del XX secolo.</p> 
+        <p>La precisa definizione del nome resta tuttavia una questione controversa.</p> 
+        <p>Nonostante ci sia accordo internazionale nel riconoscere all'informatica umanistica lo status di disciplina, o meglio di settore scientifico-disciplinare che accoglie al suo interno differenti studi, delimitare con precisione i confini scientifici di un progetto interdisciplinare del genere resta un'operazione complessa e tuttora irrisolta.</p>
+    </div>
+
+    <div n="capitolo3">
+        <p>I primi studi considerati parte dell'ombrello dell'informatica umanistica risalgono alla fine degli anni '40 e interessano il settore linguistico: nel 1949, il padre gesuita e linguista Roberto Busa avviò il trentennale progetto dell'Index Thomisticus, l'opera di indicizzazione dell'intera produzione letteraria di S. Tommaso d'Aquino, eseguita per mezzo di macchine elettrocontabili operanti su schede perforate.</p> 
+        <p>L'esperimento di Busa rappresentò un modello per le successive e più avanzate ricerche d'informatica testuale.</p> 
+        <p>Negli stessi anni, anche altri studiosi di differenti discipline umanistiche iniziarono ad avvalersi di strumenti computazionali per rispondere all'esigenza di formalizzazione dei propri lavori.</p>
+        <p>L'insieme delle esperienze che si vennero a creare, pur appartenendo a discipline differenti, presentava pratiche comuni e andò a costituire il settore dell'informatica umanistica, che tra anni '60 e '70 trovò espressione nelle prime associazioni e riviste specializzate.</p> 
+        <p>Con l'avvento del World Wide Web, il campo dell'informatica umanistica si aprì all'uso dei media virtuali, accogliendo nuovi procedimenti, non più solo di formalizzazione della ricerca, ma anche di comunicazione, scrittura e pubblicazione di risultati e fonti.</p> 
+        <p>Questo passaggio portò al cambio di denominazione dell'area di studio, che divenne più propriamente nota in lingua inglese come digital humanities.</p>
+    </div>
+
+    <div n="capitolo4">
+        <p>I principali e trasversali settori applicativi dell'informatica umanistica sono l'analisi testuale (nelle sue tre componenti: documentaria, editoriale ed ermeneutica), l'organizzazione di basi di dati, il trattamento computerizzato delle immagini e la gestione automatica di risorse bibliografiche, biblioteche e documenti d'archivio.</p>
+    </div>
+
+    <div n="capitolo5">
+        <p>La principale distinzione tra le applicazioni dell'informatica umanistica riguarda il trattamento di basi di dati testuali o linguistici, intesi come espressione letteraria, visiva o musicale rappresentabile con un codice che ne riproduca al meglio le valenze, e il trattamento di basi di dati fattuali, intesi come informazioni direttamente desunte della realtà attraverso processi di individuazione e formalizzazione che precedono e determinano il procedimento di codifica per l'automazione.</p>
+    </div>
+
+    </body>
+    
+</text>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+
+    <body>
+
+        <list type="gloss">
+            <head>Lista della spesa</head>
+            <item>Pane</item>
+            <item>Latte <term>UHT</term>, <note>lavorato a una temperatura ultra elevata</note></item>
+            <item>Pomodori</item>
+        </list>
+
+    </body>
+
+</text>

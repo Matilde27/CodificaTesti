@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+    <body n="articolo">
+        <fw>
+            <p>Verdi, gialli, rossi, piccoli come ciliegie o grandi da tagliare a metà e gustarli con olio, sale e basilico.</p>
+            <p>Da secoli i pomodori - nome scientifico <term>lycopersicon lycopersicum</term>, che significa <gloss>pesca del lupo</gloss> - sono sulle nostre tavole, soprattutto in estate.</p>
+            <p>La tradizione del pomodoro crudo in insalata o della salsa di pomodoro per condire gli spaghetti è partita dal sud <placeName>Italia</placeName>, per poi diffondersi nel mondo anche grazie alla pizza.</p>
+            <p>Di certo, sui pomodori c'è molto da scoprire: ecco 5 curiosità tra scienza, storia, cultura e cucina che vale la pena raccontare.</p>
+        </fw>
+
+        <list type="gloss">
+            <head>Curiosità sul pomodoro</head>
+
+            <label>1. DA DOVE ARRIVA IL POMODORO?</label>
+            <item>
+                <p>È una bacca originaria del Perù importata dagli spagnoli e che gli aztechi chiamavano <term>xitomatl</term> (<gloss>cosa paffuta con l'ombelico</gloss>).</p>
+                <p>Erano piccoli frutti di un colore vicino all'oro da mangiare a spicchi.</p>
+                <p> Con il tempo i pomodori diventeranno rossi, grazie a innesti successivi.</p>
+            </item>
+
+            <label>2. QUANDO SBARCA IN EUROPA?</label>
+            <item>
+                <p>Il "<term>pomo d'oro</term>" si diffonde in <placeName>Europa</placeName> a fine '500 e in <placeName>Italia</placeName> è già noto almeno dalla seconda metà del 1500, quando il medico senese <persName><forename>Pietro Andrea</forename> <surname>Mattioli</surname></persName> (1500-1577) lo menziona per la prima volta in un trattato scientifico: "portansi ai tempi nostri d'un'altra spetie in Italia schiacciate come le mela rose e fatte a spicchi, di colore prima verde e come sono mature di color d'oro le quali pur si mangiano nel medesimo modo".</p>
+            </item>
+
+            <label>3. QUANDO NASCE LA PRIMA SALSA?</label>
+            <item>
+                <p>Il primo sugo di pomodoro di cui si ha traccia è la "salsa di pomadoro, alla spagnuola" nel libro di ricette di <persName><forename>Antonio</forename> <surname>Latini</surname></persName> del 1694 <term>Lo scalco alla moderna</term>, overo <gloss>l'arte di ben disporre i conviti</gloss>, con le regole più scelte di <term>scalcheria</term> (<gloss>la tecnica di scalcare le carni</gloss>) - che si prepara mescolando pomodoro alla brace spellato, con cipolla, timo o maggiorana e aceto.</p>
+            </item>
+
+            <label>4. MA È UNA VERDURA O UN FRUTTO?</label>
+            <item>
+                <p>Il pomodoro è un frutto.</p>
+                <p>Lo sono anche cetrioli, peperoni, zucca, piselli e melanzane in quanto crescono dai fiori e hanno semi.</p>
+                <p>Secondo i botanici, infatti, un frutto è la parte della pianta che si sviluppa da un fiore ed è anche la sezione della pianta che contiene i semi, mentre le altre parti delle piante sono considerate verdure e includono gambi, foglie e radici.</p>
+                <p>Negli <placeName>Stati Uniti</placeName>, però, il pomodoro è stato classificato ufficialmente come verdura dalla <orgName>Suprema corte</orgName> nel 1893 (per questioni di tasse).</p>
+            </item>
+
+            <label>5. È VERO CHE IL POMODORO FA BENE?</label>
+            <item>
+                <p>Molto.</p>
+                <p>Perché, tra l'altro, è fonte di vitamina C e vitamine del gruppo B, fosforo, calcio e potassio.</p>
+                <p>Secondo numerosi studi scientifici i pomodori cotti fanno anche meglio di quelli consumati freschi: cucinandoli per 15 minuti, infatti, si rompe la parete cellulare del pomodoro, che rilascia il <term>licopene</term>, <gloss>un prezioso antiossidante</gloss> che riduce il rischio di alcuni tumori e agisce anche contro il colesterolo alto e malattie cardiache.</p>
+            </item>
+
+        </list>
+
+    </body>
+
+    <body n="cartolina">
+        <div n="writing">
+            <p>Cari saluti da <persName><forename>Fabio</forename><surname>Grofogli</surname></persName>!!</p>
+            <p><retrace rend="underline">Forza Lazio!!!</retrace></p>
+        </div>
+
+        <div n="address">
+            <p><seg rend="underline"><choice><abbr>Sig<am>.</am></abbr><expan>Sig<ex>nor</ex></expan></choice></seg><add place="above" rend="underline">ino</add> <persName><forename>Francesco</forename><surname>Ferri</surname></persName></p>
+            <p>Via <name>Claudia</name> 61</p>
+            <p><placeName>Oriolo Romano 01010</placeName></p>
+            <p><choice><abbr>Prov<am>.</am></abbr><expan>Prov<ex>incia</ex></expan></choice> <placeName>Viterbo</placeName></p>
+        </div>
+        
+    </body>
+
+</text>

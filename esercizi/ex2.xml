@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <!-- father è figlio di root -->
+    <father>
+
+        <child>
+        </child>
+
+        <sibling>
+        </sibling>
+
+    </father>
+
+</root>
