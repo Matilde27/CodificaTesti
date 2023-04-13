@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader xml:lang="it">
+        <fileDesc> <!--contiene una descrizione bibliografica completa di un file elettronico-->
+         
+            <titleStmt> <!--raggruppa informazioni sul titolo di un'opera e sui responsabili del suo contenuto-->
+                <title>Relazioni di <persName><forename>Arthur</forename> <surname>Lehmann</surname></persName></title>
+                <author xml:id="AL"><persName><forename>Arthur</forename> <surname>Lehmann</surname></persName></author>
+            </titleStmt>
+          
+            <editionStmt> <!-- raggruppa le informazioni relative a un'edizione di un testo -->
+                <edition>Edizione digitale - <date>aprile 2023</date>
+                </edition>
+                <respStmt>
+                    <resp>Codificata da:</resp>
+                    <name>
+                        <persName xml:id="MC"><forename>Matilde</forename> <surname>Chiavacci</surname></persName>
+                        <persName xml:id="SP"><forename>Sofia</forename> <surname>Paolinelli</surname></persName>
+                    </name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt> <!--raggruppa le informazioni riguardanti la pubblicazione o la distribuzione di un testo elettronico o di altro tipo-->
+                <publisher ref="http://digital-library.cdec.it/cdec-web/"><orgName>CDEC</orgName> - Centro di Documentazione Ebraica - Digital Library</publisher>
+                <address>
+                    <country>Italia</country>
+                    <region>Lombardia</region>
+                    <settlement>Milano</settlement>
+                </address>
+                <availability>
+                    <p>edizione ad accesso libero</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc> <!--descrive la fonte o le fonti da cui è stato derivato o generato un testo elettronico-->
+                <msDesc> <!-- descrizione del manoscritto -->
+                
+                    <msIdentifier> <!-- contiene le informazioni necessarie per identificare il manoscritto -->
+                        <country>Italia</country>
+                        <region>Lombardia</region>
+                        <settlement>Milano</settlement>
+                        <institution><orgName>CDEC</orgName> - Centro di Documentazione Ebraica</institution>
+                        <repository ref="http://digital-library.cdec.it/cdec-web/">Digital Library</repository>
+                        <collection n="nome"><persName><forename>Israel</forename> <surname>Kalk</surname></persName></collection>
+                        <collection n="capitolo">VII. Testimonianze e documentazione</collection>
+                        <idno>b. 6 , fasc. 72</idno>
+                    </msIdentifier>
+
+                    <head>Relazioni di <persName><forename>Arthur</forename> <surname>Lehmann</surname></persName>, <persName><forename>Arthur</forename> <surname>Lehmann</surname></persName></head>
+
+                    <msContents> <!-- descrive il contenuto di un manoscritto -->
+                        <summary>
+                            <p n="desc">Un appello di <persName><forename>Arthur</forename> <surname>Lehmann</surname></persName> sulla descrizione di un appello al campo di concentramento di <placeName>Ferramonti</placeName> di <placeName>Tarsia</placeName>, intitolato <title>"Appello!"</title> e un dattiloscritto dal titolo <title>"La posta"</title> sull'arrivo della corrispondenza al campo.</p> 
+                            <p n="data">Dei testi citati manca l'anno di pubblicazione e non è disponibile nessuna indicazione che permetta di risalire a questo dato.</p>
+                        </summary>
+                        
+                        <msItem n="t1">
+                            <argument>
+                                <p>Appello di <persName><forename>Arthur</forename> <surname>Lehmann</surname></persName> sulla descrizione di un appello al campo di concentramento di <placeName>Ferramonti</placeName> di <placeName>Tarsia</placeName>.</p>
+                            </argument>
+                            <title>" A p p e l l o! "</title>
+                            <byline>di<docAuthor><persName><forename>Arthur</forename> <surname>Lehmann</surname></persName></docAuthor>.</byline>
+                        </msItem>
+
+                        <msItem n="t2">
+                            <argument>
+                                <p>Dattiloscritto di <persName><forename>Arthur</forename> <surname>Lehmann</surname></persName> sull'arrivo della corrispondenza al campo.</p>
+                            </argument>
+                            <title>LA POSTA</title>
+                            <byline>di <docAuthor><persName><forename><choice n="short"><abbr type="suspension">A<am>.</am></abbr><expan>A<ex resp="#MC #SP">rthur</ex></expan></choice></forename> <surname>Lehmann</surname></persName></docAuthor></byline>
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc> <!-- descrizione fisica del manoscritto -->
+                        <objectDesc> <!-- descrizione dei componenti fisici che compongono l'oggetto che si sta descrivendo -->
+                            <supportDesc> <!-- raggruppa elementi che descrivono il supporto fisico per la parte scritta di un manoscritto -->
+                                <support>
+                                    <p n="s1">I fogli di <material>carta</material> presentano due filigrane che riproducono le scritte <watermark>C<am>.</am>M<am>.</am> <orgName>FABRIANO</orgName></watermark> ed <watermark><term>EXTRA STRONG</term></watermark>.</p>
+                                    <p n="s2">Le filigrane si trovano in posizioni diverse nei vari fogli, e alcune volte sono rovesciate o ribaltate rispetto al testo principale.</p>
+                                    <p n="s3">Presentano inoltre un grado di nitidezza variabile, che le rende quindi o appena visibile o ben marcate.</p>
+                                    <p n="s4">Ogni foglio contiene poi, centralmente, il logo della Fondazione <orgName>CDEC</orgName>.</p>
+                                    <p n="s5">Esso è riportato digitalmente tramite una filigrana rappresentante <stamp type="digital">il pittogramma CDEC e il logotipo DIGITAL LIBRARY con il relativo pittogramma</stamp>.</p>
+                                </support>
+                                <extent>Le pagine sono riunite in un fascicolo cartaceo di 7 copie carbone, suddiviso in 2 + 5 pagine.</extent>
+                                <foliation>
+                                    <p n="num">La numerazione delle pagine è identificata attraverso numeri arabi posti in alto a destra.</p>
+                                    <p n="gloss">Essa parte da 1 per ogni testo, ma non è indicata nella prima pagina di ciascuno.</p>
+                                </foliation>
+                                <condition>Nonostante qualche imperfezione, il fascicolo è ben conservato.</condition>
+                            </supportDesc>
+
+                            <layoutDesc> <!-- descrizione del layout -->
+                                <layout columns="1" writtenLines="15 40">
+                                Ogni pagina ha, in media, 40 righe scritte.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+
+                        <handDesc hands="2"> <!-- descrizione di tutte le diverse mani utilizzate in un manoscritto -->
+                            <handNote n="h1">
+                                <p n="corr">Sono presenti correzioni, cancellature e aggiunte in <term>corsivo</term>.</p>
+                                <p n="hand1">Esse appartengono ad una stessa mano e sono quasi tutte in inchiostro nero, tranne una in inchiostro blu.</p>
+                            </handNote>
+                            <handNote n="h2">
+                                <p n="hand2">Ci sono poi aggiunte e cancellature effettuate direttamente con la macchina da scrivere, che si presume appartengano a una diversa mano.</p>
+                            </handNote>
+                        </handDesc>
+
+                        <typeDesc> <!-- descrizione del carattere tipografico -->
+                            <typeNote>Le pagine sono scritte con la macchina da scrivere, prevalentemente in <term>minuscolo</term>.</typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history> <!-- contiene gli elementi che descrivono la storia completa di un manoscritto -->
+                        <summary>Le pagine presentano due testi: la descrizione di un appello al campo di concentramento di <placeName>Ferramonti</placeName> a <placeName>Tarsia</placeName>, e un dattiloscritto sull'arrivo della corrispondenza al campo</summary>
+                        <origin notBefore="1940" notAfter="1978">
+                            <p n="single">Non sono disponibili indicazioni che permettano di risalire all'anno di pubblicazione delle pagine.</p>
+                            <p n="collection">Tuttavia, dato che il testo fa parte della serie <persName><forename>Israel</forename> <surname>Kalk</surname></persName>, la sua pubblicazione è databile tra il 1940 e il 1978.</p>
+                        </origin>
+                        <provenance>Il testo, così come le altre testimonianze appartenenti alla stessa serie, ci è disponibile in quanto è stato inviato a <persName><forename>Israel</forename> <surname>Kalk</surname></persName> nel dopoguerra per la stesura di un libro dedicato a <placeName>Ferramonti</placeName>.</provenance>
+                        <acquisition>Il testo è stato poi acquisito dalla Fondazione <orgName>CDEC</orgName>, che si occupa della divulgazione della storia degli ebrei in <placeName>Italia</placeName> in età contemporanea.</acquisition>
+                    </history> 
+                    
+                </msDesc>
+            </sourceDesc>
+
+        </fileDesc> 
+            
+        <encodingDesc> <!-- descrizione della codifica -->
+            <p n="e1"><span>La codifica della testimonianza si basa sulla grammatica </span><orgName>TEI</orgName>.</p>
+            <p n="e2">A livello strutturale il testo è stato suddiviso in pagine, paragrafi e righe, evidenziando poi ogni specificità.</p>
+            <p n="e3">Gli elementi rispettano lo schema di codifica specificato sulle linee guida della TEI.</p>
+            <p n="e4">Il valore degli attributi il cui datatype non è predefinito è stato codificato in lingua inglese, seguendo gli esempi riportati sulle linee guida della TEI.</p>
+            <p n="e5">Di seguito sono riportati alcuni esempi.</p>
+            <p>
+                <list>
+                    <item n="i1">L'attributo <att>rend</att> ha i seguenti valori:
+                        <list>
+                            <item n="i1_1"><val>align(center)</val> indica che l'elemento è centrato nella pagina;</item>
+                            <item n="i1_2"><val>case(allcaps)</val> indica che l'elemento è scritto con le lettere maiuscole;</item>
+                            <item n="i1_3"><val>indent</val> indica che l'elemento è indentato rispetto al normale flusso di testo;</item>
+                            <item n="i1_4"><val>overstrike</val> indica che l'elemento è cancellato per mezzo di una sovrascrizione;</item>
+                            <item n="i1_5"><val>scribble</val> indica che l'elemento è cancellato per mezzo di uno scarabocchio;</item>
+                            <item n="i1_6"><val>strikethrough</val> indica che l'elemento è cancellato per mezzo di una linea orizzontale;</item>
+                            <item n="i1_7"><val>underline</val> indica che l'elemento è sottolineato per mezzo di una linea dritta;</item>
+                            <item n="i1_8"><val>vertical-line</val> indica che l'elemento riporta una linea verticale a lato;</item>
+                            <item n="i1_9"><val>wavy_underline</val> indica che l'elemento è sottolineato per mezzo di una linea ondulata.</item>
+                        </list>
+                    </item>
+                    <item n="i2">L'attributo <att>type</att> ha i seguenti valori:
+                        <list>
+                            <item n="i2_1"><val>page</val> indica che l'elemento è una pagina;</item>
+                            <item n="i2_2"><val>heading</val> indica che l'elemento è un'intestazione;</item>
+                            <item n="i2_3"><val>paragraph</val> indica che l'elemento è un paragrafo.</item>
+                        </list>
+                    </item>
+                    <item n="i3">L'attributo <att>function</att> ha i seguenti valori:
+                        <list>
+                            <item n="i3_1"><val>unclearly_text</val> indica che l'elemento non è chiaro, e che pertanto è stato marcato come tale;</item>
+                            <item n="i3_2"><val>separation</val> indica che l'elemento ha la funzione di separazione.</item>
+                        </list>
+                    </item>
+                </list>
+            </p>
+        </encodingDesc>
+
+        <profileDesc> <!-- fornisce una descrizione dettagliata degli aspetti non bibliografici di un testo -->
+
+           <creation> <!-- contiene informazioni sulla creazione di un testo -->
+                <listChange ordered="false">
+                    <change xml:id="blue">Modifiche effettuate con inchiostro blu</change>
+                </listChange>
+            </creation>
+
+            <handNotes> <!-- contiene uno o più elementi handNote che documentano le diverse mani identificate all'interno del testo -->
+                <handNote xml:id="writer">Modifiche effettuate con la penna</handNote>
+                <handNote xml:id="typewriter">Modifiche effettuate con la macchina da scrivere</handNote>
+            </handNotes>
+
+            <langUsage> <!-- descrive le lingue rappresentate all'interno di un testo -->
+                <language xml:id="tedesco" ident="de">Parole in lingua tedesca</language>
+            </langUsage>
+
+            <particDesc> <!-- descrive gli oratori, le voci o altri partecipanti identificabili in qualsiasi tipo di testo o altre persone nominate o altrimenti citate in un testo -->
+                <listPerson resp="#MC #SP">
+                    <person xml:id="agente" sex="M"><note><label>Agente</label><desc> nominato in "Appello!"</desc></note></person>
+                    <person xml:id="milite" sex="M"><note><label>Milite</label><desc> nominato in "Appello!"</desc></note></person>
+                    <person xml:id="bambina" sex="F" age="child"><note><label>Bambina</label><desc> argentina con i riccioli neri nominata in "Appello!"</desc></note></person>
+                    <person xml:id="bambino" sex="M" age="child"><note><label>Bambino</label><desc> di tre anni nominato in "Appello!"</desc></note></person>
+                    <person xml:id="funzionario" sex="M"><note><label>Agente</label><desc> nominato in "Appello!"</desc></note></person>
+                    <person xml:id="corriere" sex="M" role="courier"><note><label>Corriere</label><desc> nominato in "LA POSTA"</desc></note></person>
+                    <person xml:id="viennese" sex="M"><note><label>Uomo</label><desc> viennese chiamato Popi nominato in "LA POSTA"</desc></note></person>
+                    <person xml:id="messo" sex="M" role="messenger"><note><label>Messo</label><desc> di nome Maxl nominato in "LA POSTA"</desc></note></person>
+                    <person xml:id="compagno" sex="M"><note><label>Compagno</label><desc> che discute con l'autore Arthur Lehmann nominato in "LA POSTA"</desc></note></person>
+                    <person xml:id="profugo" sex="M"><note><label>Profugo</label><desc> polacco di cui viene riportata una citazione in "LA POSTA"</desc></note></person>
+                    <personGrp xml:id="lettore"><note><label>Lettori</label><desc> della citazione del profugo polacco, nominati in "LA POSTA"</desc></note></personGrp>
+                    <personGrp xml:id="compagni"><note><label>Compagni e internati</label><desc> nominati in "Appello!" e in "LA POSTA"</desc></note></personGrp>
+                    <personGrp xml:id="capi"><note><label>Capo della baracca e capi dell'assemblea</label><desc> nominati in "Appello!"</desc></note></personGrp>
+                    <personGrp xml:id="ronda"><note><label>Ronda</label><desc> di sorveglianza nominata in "Appello!"</desc></note></personGrp>
+                    <personGrp xml:id="famiglia"><note><label>Parenti e amici</label><desc> nominati in "Appello!" e in "LA POSTA"</desc></note></personGrp>
+                    <personGrp xml:id="grossista" sex="M" role="stockist"><note><label>Grossisti</label><desc> che trascinano i pacchi nominati in "LA POSTA"</desc></note></personGrp>
+                    <personGrp xml:id="rivenditore" sex="M" role="reseller"><note><label>Rivenditori</label><desc> interessati alle merci nominati in "LA POSTA"</desc></note></personGrp>
+                </listPerson> 
+            </particDesc>
+
+        </profileDesc>
+
+    </teiHeader>
+
+    <facsimile> <!-- contiene una rappresentazione di una fonte scritta sotto forma di un insieme di immagini -->
+        <surface> <!-- definisce una superficie scritta come uno spazio di coordinate bidimensionale -->
+            <!-- pagina 1 -->
+            <graphic xml:id="pagina1" url="immagini/pag1.jpg" width="726.4px" height="1024.4px" />
+            <zone xml:id="pag1" ulx="103" uly="85" lrx="650" lry="1007" />
+            <!-- intestazione --> 
+            <zone xml:id="p1int" ulx="246" uly="86" lrx="498" lry="145" />
+            <zone xml:id="p1r1" ulx="253" uly="86" lrx="407" lry="113" />
+            <zone xml:id="p1r2" ulx="343" uly="120" lrx="493" lry="146" />
+            <!-- paragrafo 1 -->
+            <zone xml:id="p1par1" ulx="103" uly="165" lrx="658" lry="392" />
+            <zone xml:id="p1r3" ulx="151" uly="166" lrx="645" lry="186" />
+            <zone xml:id="p1r4" ulx="107" uly="182" lrx="643" lry="211" />
+            <zone xml:id="p1r5" ulx="107" uly="211" lrx="651" lry="240" />
+            <zone xml:id="p1r6" ulx="106" uly="242" lrx="648" lry="268" />
+            <zone xml:id="p1r7" ulx="107" uly="270" lrx="626" lry="293" />
+            <zone xml:id="p1r8" ulx="108" uly="294" lrx="627" lry="317" />
+            <zone xml:id="p1r9" ulx="105" uly="320" lrx="631" lry="342" />
+            <zone xml:id="p1r10" ulx="104" uly="346" lrx="617" lry="370" />
+            <zone xml:id="p1r11" ulx="106" uly="371" lrx="183" lry="392" />
+            <!-- paragrafo 2 -->
+            <zone xml:id="p1par2" ulx="99" uly="395" lrx="651" lry="494" />
+            <zone xml:id="p1r12" ulx="147" uly="398" lrx="645" lry="419" />
+            <zone xml:id="p1r13" ulx="105" uly="422" lrx="599" lry="446" />
+            <!-- paragrafo 3 -->
+            <zone xml:id="p1par3" ulx="100" uly="446" lrx="643" lry="496" />
+            <zone xml:id="p1r14" ulx="140" uly="446" lrx="631" lry="469" />
+            <zone xml:id="p1r15" ulx="101" uly="473" lrx="261" lry="493" />
+            <!-- paragrafo 4 -->
+            <zone xml:id="p1par4" ulx="104" uly="495" lrx="628" lry="624" />
+            <zone xml:id="p1r16" ulx="144" uly="496" lrx="623" lry="524" />
+            <zone xml:id="p1r17" ulx="110" uly="523" lrx="623" lry="546" />
+            <zone xml:id="p1r18" ulx="107" uly="550" lrx="631" lry="570" />
+            <zone xml:id="p1r19" ulx="107" uly="577" lrx="617" lry="597" />
+            <zone xml:id="p1r20" ulx="105" uly="602" lrx="530" lry="619" />
+            <!-- paragrafo 5 -->
+            <zone xml:id="p1par5" ulx="101" uly="626" lrx="654" lry="832" />
+            <zone xml:id="p1r21" ulx="141" uly="624" lrx="652" lry="650" />
+            <zone xml:id="p1r22" ulx="109" uly="652" lrx="655" lry="672" />
+            <zone xml:id="p1r23" ulx="107" uly="674" lrx="615" lry="698" />
+            <zone xml:id="p1r24" ulx="108" uly="702" lrx="631" lry="725" />
+            <zone xml:id="p1r25" ulx="107" uly="724" lrx="633" lry="750" />
+            <zone xml:id="p1r26" ulx="109" uly="754" lrx="629" lry="777" />
+            <zone xml:id="p1r27" ulx="108" uly="781" lrx="631" lry="799" />
+            <zone xml:id="p1r28" ulx="106" uly="805" lrx="605" lry="827" />
+            <!-- paragrafo 6 -->
+            <zone xml:id="p1par6" ulx="103" uly="830" lrx="653" lry="954" />
+            <zone xml:id="p1r29" ulx="145" uly="830" lrx="640" lry="854" />
+            <zone xml:id="p1r30" ulx="105" uly="857" lrx="614" lry="880" />
+            <zone xml:id="p1r31" ulx="108" uly="885" lrx="646" lry="903" />
+            <zone xml:id="p1r32" ulx="107" uly="908" lrx="648" lry="929" />
+            <zone xml:id="p1r33" ulx="105" uly="935" lrx="170" lry="953" />
+            <!-- paragrafo 7 -->
+            <zone xml:id="p1par7" ulx="102" uly="957" lrx="646" lry="1006" />
+            <zone xml:id="p1r34" ulx="142" uly="957" lrx="645" lry="982" />
+            <zone xml:id="p1r35" ulx="107" uly="984" lrx="630" lry="1004" />
+        </surface>
+
+        <surface>
+            <!-- pagina 2 -->
+            <graphic xml:id="pagina2" url="immagini/pag2.jpg" width="727.4px" height="1024.4px" />
+            <zone xml:id="pag2" ulx="111" uly="31" lrx="725" lry="551" />
+            <!-- intestazione -->
+            <zone xml:id="p2int" ulx="113" uly="29" lrx="727" lry="430" />
+            <zone xml:id="p2r1_int" uly="34" lrx="211" lry="58" />
+            <zone xml:id="p2r1_num" uly="31" lrx="635" lry="61" />
+            <!-- paragrafo 1 -->
+            <zone xml:id="p2par1" ulx="117" uly="80" lrx="684" lry="182" />
+            <zone xml:id="p2r2" ulx="115" uly="78" lrx="637" lry="99" />
+            <zone xml:id="p2r3" ulx="121" uly="103" lrx="652" lry="123" />
+            <zone xml:id="p2r4" ulx="118" uly="122" lrx="625" lry="154" />
+            <zone xml:id="p2r5" ulx="120" uly="154" lrx="679" lry="177" />
+            <!-- paragrafo 2 -->
+            <zone xml:id="p2par2" ulx="115" uly="180" lrx="647" lry="226" />
+            <zone xml:id="p2r6" ulx="159" uly="180" lrx="641" lry="204" />
+            <zone xml:id="p2r7" ulx="118" uly="206" lrx="486" lry="226" />
+            <!-- paragrafo 3 -->
+            <zone xml:id="p2par3" points = ' 113,227 727,229 727,387 661,385 658,301 116,301 ' />
+            <zone xml:id="p2r8" ulx="160" uly="226" lrx="678" lry="250" />
+            <zone xml:id="p2r9" points = ' 120,245 727,251 726,387 662,383 655,278 118,274 ' />
+            <zone xml:id="p2r9_margin" points = ' 505,246 517,246 537,245 552,249 581,249 602,249 630,248 656,249 678,248 701,248 717,248 724,251 727,274 725,298 727,326 727,345 726,366 727,382 711,382 693,382 679,382 664,382 656,382 656,369 659,351 661,339 658,325 658,312 658,300 655,286 655,274 654,266 640,265 621,265 606,265 591,265 573,262 559,263 539,263 527,267 520,273 516,277 512,277 507,266 497,261 493,256 502,249 ' />
+            <zone xml:id="p2r10" ulx="119" uly="278" lrx="666" lry="300" />
+            <!-- paragrafo 4 -->
+            <zone xml:id="p2par4" ulx="119" uly="306" lrx="665" lry="375" />
+            <zone xml:id="p2r11" ulx="156" uly="301" lrx="661" lry="327" />
+            <zone xml:id="p2r12" ulx="120" uly="333" lrx="662" lry="354" />
+            <zone xml:id="p2r13" ulx="119" uly="357" lrx="221" lry="378" />
+            <!-- paragrafo 5 -->
+            <zone xml:id="p2par5" ulx="115" uly="380" lrx="640" lry="530" />
+            <zone xml:id="p2r14" ulx="151" uly="381" lrx="640" lry="406" />
+            <zone xml:id="p2r15" ulx="116" uly="408" lrx="282" lry="429" />
+            <zone xml:id="p2par5_trat" ulx="261" uly="502" lrx="466" lry="526" />
+        </surface>
+
+        <surface>
+            <!-- pagina 3 -->
+            <graphic xml:id="pagina3" url="immagini/pag3.jpg" width="723.4px" height="1024.4px" />
+            <zone xml:id="pag3" ulx="32" uly="53" lrx="706" lry="1019" />
+            <!-- intestazione -->
+            <zone xml:id="p3int" ulx="200" uly="48" lrx="537" lry="114" />
+            <zone xml:id="p3r1" ulx="204" uly="55" lrx="525" lry="83" />
+            <zone xml:id="p3r2" ulx="353" uly="85" lrx="480" lry="104" />
+            <!-- paragrafo 1 -->
+            <zone xml:id="p3par1" ulx="83" uly="129" lrx="713" lry="333" />
+            <zone xml:id="p3r3" ulx="85" uly="133" lrx="695" lry="155" />
+            <zone xml:id="p3r4" ulx="86" uly="162" lrx="682" lry="181" />
+            <zone xml:id="p3r5" ulx="86" uly="185" lrx="696" lry="207" />
+            <zone xml:id="p3r6" ulx="86" uly="210" lrx="713" lry="233" />
+            <zone xml:id="p3r7" ulx="86" uly="235" lrx="687" lry="256" />
+            <zone xml:id="p3r8" ulx="87" uly="262" lrx="702" lry="282" />
+            <zone xml:id="p3r9" ulx="87" uly="282" lrx="677" lry="314" />
+            <zone xml:id="p3r10" ulx="85" uly="315" lrx="529" lry="332" />
+            <!-- paragrafo 2 -->
+            <zone xml:id="p3par2" ulx="78" uly="336" lrx="698" lry="406" />
+            <zone xml:id="p3r11" ulx="127" uly="336" lrx="696" lry="358" />
+            <zone xml:id="p3r12" ulx="83" uly="362" lrx="687" lry="381" />
+            <zone xml:id="p3r13" ulx="83" uly="386" lrx="179" lry="406" />
+            <!-- paragrafo 3 -->
+            <zone xml:id="p3par3" ulx="79" uly="409" lrx="708" lry="767" />
+            <zone xml:id="p3r14" ulx="127" uly="409" lrx="680" lry="434" />
+            <zone xml:id="p3r15" ulx="87" uly="433" lrx="672" lry="460" />
+            <zone xml:id="p3r16" ulx="86" uly="462" lrx="702" lry="482" />
+            <zone xml:id="p3r17" ulx="88" uly="482" lrx="703" lry="510" />
+            <zone xml:id="p3r18" ulx="83" uly="509" lrx="703" lry="538" />
+            <zone xml:id="p3r19" ulx="85" uly="542" lrx="696" lry="562" />
+            <zone xml:id="p3r20" ulx="87" uly="567" lrx="699" lry="588" />
+            <zone xml:id="p3r21" ulx="83" uly="593" lrx="695" lry="613" />
+            <zone xml:id="p3r22" ulx="83" uly="618" lrx="688" lry="639" />
+            <zone xml:id="p3r23" ulx="83" uly="643" lrx="690" lry="665" />
+            <zone xml:id="p3r24" ulx="83" uly="669" lrx="707" lry="691" />
+            <zone xml:id="p3r25" ulx="85" uly="694" lrx="689" lry="715" />
+            <zone xml:id="p3r26" ulx="83" uly="715" lrx="703" lry="743" />
+            <zone xml:id="p3r27" ulx="86" uly="746" lrx="140" lry="765" />
+            <!-- paragrafo 4 -->
+            <zone xml:id="p3par4" ulx="79" uly="770" lrx="703" lry="948" />
+            <zone xml:id="p3r28" ulx="127" uly="769" lrx="691" lry="789" />
+            <zone xml:id="p3r29" ulx="85" uly="794" lrx="699" lry="817" />
+            <zone xml:id="p3r30" ulx="85" uly="822" lrx="708" lry="845" />
+            <zone xml:id="p3r31" ulx="87" uly="849" lrx="680" lry="870" />
+            <zone xml:id="p3r32" ulx="83" uly="875" lrx="695" lry="893" />
+            <zone xml:id="p3r33" ulx="84" uly="897" lrx="688" lry="919" />
+            <zone xml:id="p3r34" ulx="83" uly="923" lrx="639" lry="945" />
+            <!-- paragrafo 5 -->
+            <zone xml:id="p3par5" ulx="26" uly="950" lrx="702" lry="1018" />
+            <zone xml:id="p3r35" ulx="126" uly="946" lrx="688" lry="968" />
+            <zone xml:id="p3r36" ulx="27" uly="973" lrx="699" lry="1019" />
+        </surface>
+
+        <surface>
+            <!-- pagina 4 -->
+            <graphic xml:id="pagina4"  url="immagini/pag4.jpg" width="725.4px" height="1024.4px" />
+            <zone xml:id="pag4" ulx="68" uly="25" lrx="692" lry="1023" />
+            <!-- intestazione -->
+            <zone xml:id="p4int" ulx="76" uly="26" lrx="482" lry="54" />
+            <zone xml:id="p4r1_int" ulx="81" uly="30" lrx="266" lry="51" />
+            <zone xml:id="p4r1_num" ulx="425" uly="30" lrx="476" lry="51" />
+            <!-- paragrafo 1 -->
+            <zone xml:id="p4par1" ulx="79" uly="61" lrx="697" lry="362" />
+            <zone xml:id="p4r2" ulx="82" uly="61" lrx="687" lry="86" />
+            <zone xml:id="p4r3" ulx="83" uly="88" lrx="675" lry="109" />
+            <zone xml:id="p4r4" ulx="82" uly="112" lrx="681" lry="136" />
+            <zone xml:id="p4r5" ulx="83" uly="138" lrx="679" lry="160" />
+            <zone xml:id="p4r6" ulx="83" uly="162" lrx="675" lry="187" />
+            <zone xml:id="p4r7" ulx="82" uly="190" lrx="695" lry="212" />
+            <zone xml:id="p4r8" ulx="82" uly="214" lrx="687" lry="237" />
+            <zone xml:id="p4r9" ulx="81" uly="244" lrx="673" lry="263" />
+            <zone xml:id="p4r10" ulx="82" uly="269" lrx="695" lry="290" />
+            <zone xml:id="p4r11" ulx="82" uly="293" lrx="695" lry="314" />
+            <zone xml:id="p4r12" ulx="73" uly="309" lrx="682" lry="341" />
+            <zone xml:id="p4r13" ulx="79" uly="344" lrx="166" lry="364" />
+            <!-- paragrafo 2 -->
+            <zone xml:id="p4par2" ulx="79" uly="366" lrx="691" lry="418" />
+            <zone xml:id="p4r14" ulx="127" uly="369" lrx="686" lry="392" />
+            <zone xml:id="p4r15" ulx="79" uly="394" lrx="675" lry="418" />
+            <!-- paragrafo 3 -->
+            <zone xml:id="p4par3" ulx="78" uly="422" lrx="699" lry="598" />
+            <zone xml:id="p4r16" ulx="129" uly="421" lrx="675" lry="442" />
+            <zone xml:id="p4r17" ulx="81" uly="438" lrx="671" lry="467" />
+            <zone xml:id="p4r18" ulx="81" uly="470" lrx="678" lry="491" />
+            <zone xml:id="p4r19" ulx="79" uly="495" lrx="678" lry="518" />
+            <zone xml:id="p4r20" ulx="79" uly="521" lrx="694" lry="544" />
+            <zone xml:id="p4r21" ulx="79" uly="548" lrx="672" lry="570" />
+            <zone xml:id="p4r22" ulx="79" uly="574" lrx="485" lry="593" />
+            <!-- paragrafo 4 -->
+            <zone xml:id="p4par4" ulx="75" uly="602" lrx="703" lry="675" />
+            <zone xml:id="p4r23" ulx="127" uly="598" lrx="695" lry="622" />
+            <zone xml:id="p4r24" ulx="81" uly="626" lrx="698" lry="648" />
+            <zone xml:id="p4r25" ulx="79" uly="651" lrx="204" lry="669" />
+            <!-- paragrafo 5 -->
+            <zone xml:id="p4par5" ulx="75" uly="679" lrx="695" lry="749" />
+            <zone xml:id="p4r26" ulx="126" uly="674" lrx="671" lry="700" />
+            <zone xml:id="p4r27" ulx="79" uly="703" lrx="694" lry="726" />
+            <zone xml:id="p4r28" ulx="78" uly="728" lrx="332" lry="746" />
+            <!-- paragrafo 6 -->
+            <zone xml:id="p4par6" ulx="76" uly="751" lrx="688" lry="1023" />
+            <zone xml:id="p4r29" ulx="124" uly="754" lrx="677" lry="775" />
+            <zone xml:id="pr430" ulx="78" uly="780" lrx="678" lry="800" />
+            <zone xml:id="p4r31" ulx="79" uly="805" lrx="692" lry="826" />
+            <zone xml:id="p4r32" ulx="80" uly="829" lrx="683" lry="851" />
+            <zone xml:id="p4r33" ulx="75" uly="849" lrx="688" lry="879" />
+            <zone xml:id="p4r34" ulx="79" uly="882" lrx="674" lry="901" />
+            <zone xml:id="p4r35" ulx="79" uly="905" lrx="682" lry="928" />
+            <zone xml:id="p4r36" ulx="77" uly="933" lrx="682" lry="954" />
+            <zone xml:id="p4r37" ulx="76" uly="958" lrx="681" lry="979" />
+            <zone xml:id="p4r38" ulx="78" uly="982" lrx="683" lry="1003" />
+            <zone xml:id="p4r39" ulx="78" uly="1009" lrx="591" lry="1023" />
+        </surface>
+
+        <surface>
+            <!-- pagina 5 -->
+            <graphic xml:id="pagina5" url="immagini/pag5.jpg" width="726.4px" height="1024.4px" />
+            <zone xml:id="pag5" ulx="35" uly="42" lrx="726" lry="1015" />
+            <!-- intestazione -->
+            <zone xml:id="p5int" ulx="87" uly="45" lrx="508" lry="72" />
+            <zone xml:id="p5r1_int" ulx="86" uly="42" lrx="263" lry="66" />
+            <zone xml:id="p5r1_num" ulx="436" uly="50" lrx="503" lry="67" />
+            <!-- paragrafo 1 -->
+            <zone xml:id="p5par1" ulx="86" uly="74" lrx="473" lry="93" />
+            <zone xml:id="p5r2" ulx="87" uly="71" lrx="473" lry="91" />
+            <!-- paragrafo 2 -->
+            <zone xml:id="p5par2" ulx="87" uly="96" lrx="702" lry="219" />
+            <zone xml:id="p5r3" ulx="131" uly="94" lrx="701" lry="119" />
+            <zone xml:id="p5r4" ulx="87" uly="122" lrx="677" lry="142" />
+            <zone xml:id="p5r5" ulx="89" uly="147" lrx="687" lry="170" />
+            <zone xml:id="p5r6" ulx="87" uly="172" lrx="682" lry="194" />
+            <zone xml:id="p5r7" ulx="87" uly="200" lrx="512" lry="221" />
+            <!-- paragrafo 3 -->
+            <zone xml:id="p5par3" ulx="87" uly="222" lrx="726" lry="682" />
+            <zone xml:id="p5r8" ulx="131" uly="223" lrx="693" lry="247" />
+            <zone xml:id="p5r9" ulx="87" uly="247" lrx="684" lry="271" />
+            <zone xml:id="p5r10" ulx="87" uly="275" lrx="684" lry="295" />
+            <zone xml:id="p5r11" ulx="88" uly="300" lrx="686" lry="323" />
+            <zone xml:id="p5r12" ulx="88" uly="327" lrx="703" lry="348" />
+            <zone xml:id="p5r13" ulx="87" uly="350" lrx="692" lry="374" />
+            <zone xml:id="p5r14" ulx="85" uly="379" lrx="695" lry="401" />
+            <zone xml:id="p5r15" ulx="87" uly="403" lrx="668" lry="426" />
+            <zone xml:id="p5r16" ulx="87" uly="429" lrx="683" lry="450" />
+            <zone xml:id="p5r17" ulx="87" uly="454" lrx="705" lry="477" />
+            <zone xml:id="p5r18" ulx="79" uly="470" lrx="697" lry="502" />
+            <zone xml:id="p5r19" ulx="83" uly="506" lrx="683" lry="528" />
+            <zone xml:id="p5r20" ulx="84" uly="530" lrx="705" lry="554" />
+            <zone xml:id="p5r21" ulx="85" uly="556" lrx="690" lry="578" />
+            <zone xml:id="p5r22" ulx="86" uly="584" lrx="689" lry="605" />
+            <zone xml:id="p5r23" ulx="86" uly="607" lrx="703" lry="631" />
+            <zone xml:id="p5r24" ulx="83" uly="627" lrx="687" lry="654" />
+            <zone xml:id="p5r25" ulx="85" uly="661" lrx="726" lry="683" />
+            <!-- paragrafo 4 -->
+            <zone xml:id="p5par4" ulx="87" uly="684" lrx="726" lry="783" />
+            <zone xml:id="p5r26" ulx="128" uly="682" lrx="718" lry="706" />
+            <zone xml:id="p5r27" ulx="84" uly="709" lrx="719" lry="731" />
+            <zone xml:id="p5r28" ulx="83" uly="736" lrx="726" lry="758" />
+            <zone xml:id="p5r29" ulx="84" uly="761" lrx="582" lry="781" />
+            <!-- paragrafo 5 -->
+            <zone xml:id="p5par5" ulx="122" uly="786" lrx="562" lry="808" />
+            <zone xml:id="p5r30" ulx="127" uly="785" lrx="560" lry="809" />
+            <!-- paragrafo 6 -->
+            <zone xml:id="p5par6" ulx="37" uly="816" lrx="725" lry="1018" />
+            <zone xml:id="p5r31" ulx="128" uly="811" lrx="721" lry="834" />
+            <zone xml:id="p5r32" ulx="81" uly="838" lrx="719" lry="858" />
+            <zone xml:id="p5r33" ulx="83" uly="862" lrx="698" lry="886" />
+            <zone xml:id="p5r34" ulx="85" uly="890" lrx="719" lry="912" />
+            <zone xml:id="p5r35" ulx="83" uly="916" lrx="720" lry="937" />
+            <zone xml:id="p5lat" ulx="31" uly="922" lrx="79" lry="1007" />
+            <zone xml:id="p5r36" ulx="84" uly="939" lrx="725" lry="963" />
+            <zone xml:id="p5r37" ulx="83" uly="967" lrx="726" lry="990" />
+            <zone xml:id="p5r38" ulx="83" uly="993" lrx="671" lry="1015" />
+        </surface>
+
+        <surface>
+            <!-- pagina 6 -->
+            <graphic xml:id="pagina6" url="immagini/pag6.jpg" width="725.4px" height="1024.4px" />
+            <zone xml:id="pag6" ulx="65" uly="33" lrx="721" lry="1012" />
+            <!-- intestazione -->
+            <zone xml:id="p6int" ulx="87" uly="34" lrx="529" lry="60" />
+            <zone xml:id="p6r1_int" ulx="88" uly="30" lrx="275" lry="56" />
+            <zone xml:id="p6r1_num" ulx="461" uly="38" lrx="528" lry="59" />
+            <!-- paragrafo 1 -->
+            <zone xml:id="p6par1" ulx="44" uly="64" lrx="719" lry="240" />
+            <zone xml:id="p6r2" ulx="89" uly="68" lrx="695" lry="89" />
+            <zone xml:id="p6lat" ulx="36" uly="75" lrx="87" lry="145" />
+            <zone xml:id="p6r3" ulx="91" uly="91" lrx="701" lry="113" />
+            <zone xml:id="p6r4" ulx="90" uly="119" lrx="718" lry="142" />
+            <zone xml:id="p6r5" ulx="92" uly="145" lrx="686" lry="163" />
+            <zone xml:id="p6r6" ulx="90" uly="166" lrx="703" lry="191" />
+            <zone xml:id="p6r7" ulx="86" uly="194" lrx="695" lry="216" />
+            <zone xml:id="p6r8" ulx="89" uly="220" lrx="359" lry="240" />
+            <!-- paragrafo 2 -->
+            <zone xml:id="p6par2" ulx="86" uly="241" lrx="724" lry="298" />
+            <zone xml:id="p6r9" ulx="131" uly="238" lrx="712" lry="267" />
+            <zone xml:id="p6r10" ulx="90" uly="266" lrx="723" lry="295" />
+            <!-- paragrafo 3 -->
+            <zone xml:id="p6par3" ulx="88" uly="299" lrx="713" lry="523" />
+            <zone xml:id="p6r11" ulx="133" uly="296" lrx="691" lry="322" />
+            <zone xml:id="p6r12" ulx="87" uly="323" lrx="695" lry="346" />
+            <zone xml:id="p6r13" ulx="88" uly="348" lrx="718" lry="369" />
+            <zone xml:id="p6r14" ulx="90" uly="371" lrx="709" lry="395" />
+            <zone xml:id="p6r15" ulx="88" uly="398" lrx="670" lry="421" />
+            <zone xml:id="p6r16" ulx="87" uly="422" lrx="683" lry="450" />
+            <zone xml:id="p6r17" ulx="89" uly="451" lrx="706" lry="477" />
+            <zone xml:id="p6r18" ulx="87" uly="478" lrx="679" lry="499" />
+            <zone xml:id="p6r19" ulx="89" uly="503" lrx="502" lry="520" />
+            <!-- paragrafo 4 -->
+            <zone xml:id="p6par4" ulx="88" uly="527" lrx="716" lry="776" />
+            <zone xml:id="p6r20" ulx="128" uly="525" lrx="677" lry="550" />
+            <zone xml:id="p6r21" ulx="85" uly="550" lrx="708" lry="576" />
+            <zone xml:id="p6r22" ulx="88" uly="581" lrx="667" lry="599" />
+            <zone xml:id="p6r23" ulx="91" uly="601" lrx="675" lry="626" />
+            <zone xml:id="p6r24" ulx="87" uly="631" lrx="694" lry="652" />
+            <zone xml:id="p6r25" ulx="87" uly="657" lrx="685" lry="678" />
+            <zone xml:id="p6r26" ulx="86" uly="682" lrx="714" lry="705" />
+            <zone xml:id="p6r27" ulx="87" uly="708" lrx="699" lry="728" />
+            <zone xml:id="p6r28" ulx="87" uly="733" lrx="697" lry="755" />
+            <zone xml:id="p6r29" ulx="87" uly="759" lrx="654" lry="780" />
+            <!-- paragrafo 5 -->
+            <zone xml:id="p6par5" ulx="88" uly="781" lrx="715" lry="1007" />
+            <zone xml:id="p6in" ulx="275" uly="774" lrx="294" lry="789" />
+            <zone xml:id="p6r30" ulx="131" uly="780" lrx="694" lry="806" />
+            <zone xml:id="p6r31" ulx="85" uly="808" lrx="675" lry="830" />
+            <zone xml:id="p6r32" ulx="89" uly="836" lrx="682" lry="854" />
+            <zone xml:id="p6r33" ulx="88" uly="858" lrx="691" lry="882" />
+            <zone xml:id="p6r34" ulx="86" uly="885" lrx="706" lry="908" />
+            <zone xml:id="p6r35" ulx="86" uly="909" lrx="688" lry="932" />
+            <zone xml:id="p6r36" ulx="87" uly="935" lrx="712" lry="959" />
+            <zone xml:id="p6r37" ulx="87" uly="962" lrx="711" lry="983" />
+            <zone xml:id="p6r38" ulx="87" uly="987" lrx="635" lry="1007" />
+        </surface>
+
+        <surface>
+            <!-- pagina 7 -->
+            <graphic xml:id="pagina7" url="immagini/pag7.jpg" width="726.4px" height="1024.4px" />
+            <zone xml:id="pag7" ulx="75" uly="23" lrx="720" lry="833" />
+            <!-- intestazione -->
+            <zone xml:id="p7int" ulx="83" uly="26" lrx="552" lry="54" />
+            <zone xml:id="p7r1_int" ulx="83" uly="24" lrx="271" lry="49" />
+            <zone xml:id="p7r1_num" ulx="490" uly="31" lrx="551" lry="49" />
+            <!-- paragrafo 1 -->
+            <zone xml:id="p7par1" ulx="82" uly="57" lrx="724" lry="134" />
+            <zone xml:id="p7r2" ulx="84" uly="63" lrx="723" lry="84" />
+            <zone xml:id="p7r3" ulx="85" uly="87" lrx="716" lry="108" />
+            <zone xml:id="p7r4" ulx="87" uly="113" lrx="221" lry="133" />
+            <!-- paragrafo 2 -->
+            <zone xml:id="p7par2" ulx="85" uly="137" lrx="694" lry="210" />
+            <zone xml:id="p7r5" ulx="131" uly="136" lrx="691" lry="159" />
+            <zone xml:id="p7r6" ulx="85" uly="162" lrx="692" lry="183" />
+            <zone xml:id="p7r7" ulx="87" uly="186" lrx="499" lry="207" />
+            <!-- paragrafo 3 -->
+            <zone xml:id="p7par3" ulx="83" uly="216" lrx="718" lry="518" />
+            <zone xml:id="p7r8" ulx="130" uly="213" lrx="699" lry="234" />
+            <zone xml:id="p7r9" ulx="85" uly="241" lrx="711" lry="262" />
+            <zone xml:id="p7r10" ulx="85" uly="262" lrx="719" lry="293" />
+            <zone xml:id="p7r11" ulx="81" uly="284" lrx="689" lry="313" />
+            <zone xml:id="p7r12" ulx="83" uly="318" lrx="703" lry="342" />
+            <zone xml:id="p7r13" ulx="85" uly="345" lrx="678" lry="362" />
+            <zone xml:id="p7r14" ulx="87" uly="367" lrx="692" lry="389" />
+            <zone xml:id="p7r15" ulx="86" uly="393" lrx="702" lry="414" />
+            <zone xml:id="p7r16" ulx="86" uly="418" lrx="691" lry="439" />
+            <zone xml:id="p7r17" ulx="89" uly="445" lrx="646" lry="466" />
+            <zone xml:id="p7r18" ulx="86" uly="470" lrx="207" lry="489" />
+            <zone xml:id="p7par3_trat1" ulx="344" uly="484" lrx="421" lry="510" />
+            <!-- paragrafo 4 -->
+            <zone xml:id="p7par4" ulx="84" uly="520" lrx="687" lry="564" />
+            <zone xml:id="p7r19" ulx="127" uly="519" lrx="687" lry="540" />
+            <zone xml:id="p7r20" ulx="85" uly="546" lrx="403" lry="566" />
+            <!-- paragrafo 5 -->
+            <zone xml:id="p7par5" ulx="158" uly="569" lrx="402" lry="592" />
+            <zone xml:id="p7r21" ulx="163" uly="571" lrx="400" lry="589" />
+            <!-- paragrafo 6 -->
+            <zone xml:id="p7par6" ulx="156" uly="590" lrx="251" lry="606" />
+            <zone xml:id="p7r22" ulx="166" uly="589" lrx="248" lry="605" />
+            <!-- paragrafo 7 -->
+            <zone xml:id="p7par7" ulx="82" uly="605" lrx="707" lry="680" />
+            <zone xml:id="p7r23" ulx="163" uly="606" lrx="689" lry="626" />
+            <zone xml:id="p7r24" ulx="85" uly="626" lrx="686" lry="643" />
+            <zone xml:id="p7r25" ulx="86" uly="644" lrx="704" lry="659" />
+            <zone xml:id="p7r26" ulx="87" uly="659" lrx="272" lry="676" />
+            <!-- paragrafo 8 -->
+            <zone xml:id="p7par8" ulx="82" uly="682" lrx="679" lry="733" />
+            <zone xml:id="p7r27" ulx="132" uly="683" lrx="679" lry="703" />
+            <zone xml:id="p7r28" ulx="86" uly="708" lrx="644" lry="734" />
+            <!-- paragrafo 9 -->
+            <zone xml:id="p7par9" ulx="131" uly="735" lrx="508" lry="754" />
+            <zone xml:id="p7r29" ulx="131" uly="735" lrx="506" lry="752" />
+            <!-- paragrafo 10 -->
+            <zone xml:id="p7par10" ulx="79" uly="750" lrx="689" lry="828" />
+            <zone xml:id="p7r30" ulx="125" uly="750" lrx="687" lry="787" />
+            <zone xml:id="p7r31" ulx="85" uly="786" lrx="258" lry="804" />
+            <zone xml:id="p7par3_trat2" ulx="351" uly="815" lrx="418" lry="828" />
+
+        </surface>
+    </facsimile> 
+
+    <text xml:lang="it"> <!-- contiene un testo unico di qualsiasi tipo -->
+
+        <body> <!-- contiene l'intero corpo di un unico testo unitario -->
+            <!-- PRIMA PAGINA -->
+            <div type="page" n="1" facs="#pagina1">
+                <pb n="1" facs="#pag1"/>
+                
+                <fw type="heading" n="1" facs="#p1int">
+                    <lb facs="#p1r1"/>
+                    <fw type="header"><title rend="align(center)"><q type="mentioned">" A p p e l l o! "</q></title></fw>
+                    <lb facs="#p1r2"/>
+                    di <persName><forename>Arthur</forename> <surname>Lehmann</surname></persName>.
+                </fw>
+
+                <ab type="paragraph" n="1" facs="#p1par1" rend="indent">
+                    <lb facs="#p1r3"/>
+                    Un breve <term>trillo</term> di fischietto: il segnale dell' appello, che ha
+                    <lb facs="#p1r4"/>
+                    luogo, sebbene con piccole variazioni <add place="above" hand="#writer"><w>di</w><seg change="#blue" hand="#writer"> orario a seconda della</seg></add> <w>stagion<subst><del hand="#writer" rend="overstrike">a</del><add place="inline">e</add></subst><del rend="scribble">li</del></w>, verso le <num type="cardinal" value="9">9</num>, le <num type="cardinal" value="12">12</num> e
+                    <lb facs="#p1r5"/>
+                    la sera. Dalle strade e dalle piazze <w>del<del hand="#writer" rend="scribble">la</del></w> grande <w><subst><del hand="#writer" rend="strikethrough">colonia</del><add hand="#writer" place="above">abitato</add></subst></w>, dalle <w>fon<pc force="weak">-</pc>
+                    <lb facs="#p1r6" break="no"/>
+                    tane</w>, dalle rivendite di tè gli <ref target="#compagni">internati</ref> si recano alle proprie <w>ba<pc force="weak">-</pc>
+                    <lb facs="#p1r7" break="no"/>
+                    racche</w>, per attendere con pazienza <q type="thought" who="#AL"><pc force="strong" rend="underline">-</pc> hanno tanto tempo <pc force="strong">-</pc></q> l' arrivo
+                    <lb facs="#p1r8"/>
+                    dell' <ref target="#agente">agente</ref> e del <ref target="#milite">milite</ref> che lo accompagna, per contare i presenti
+                    <lb facs="#p1r9"/>
+                    nelle baracche. Alcuni che lavorano nelle cucine, negli <w><retrace>u</retrace>ffici</w> o in
+                    <lb facs="#p1r10"/>
+                    magazzino sono <w>esoner<supplied reason="faded-ink" cert="high">a</supplied>ti</w>; altri <ref target="#compagni">compagni</ref> <w><del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">c</unclear></del>anco<retrace>r</retrace><subst><del hand="#typewriter" rend="overstrike">i</del><add place="inline">a</add></subst><del hand="#typewriter" rend="overstrike">i</del></w> assenti vengono
+                    <lb facs="#p1r11"/>
+                    chiamati.                    
+                </ab>
+                
+                <ab type="paragraph" n="2" facs="#p1par2" rend="indent">
+                    <lb facs="#p1r12"/> 
+                    Ancora un grido allarmante: <q type="spoken">"Appello! "</q> Ecco, tutti si dispongono
+                    <lb facs="#p1r13"/> 
+                    in fila lungo il corridoio centrale della baracca, fra i letti.                   
+                </ab>
+                <ab type="paragraph" n="3" facs="#p1par3" rend="indent">
+                    <lb facs="#p1r14"/>
+                    Il <ref target="#milite">milite</ref> percorre la lunga fila e comunica il numero dei <w>pre<pc force="weak">-</pc>
+                    <lb facs="#p1r15" break="no"/>
+                    senti</w> all' <ref target="#agente">agente</ref>.
+                </ab>
+                <ab type="paragraph" n="4" facs="#p1par4" rend="indent">
+                    <lb facs="#p1r16"/>
+                    <q type="spoken" who="#milite" toWhom="#agente">"Va bene"</q>; se ci sono tutti: oppure <q type="spoken" who="#milite" toWhom="#agente">"Manca uno! <w>Manc<supplied reason="faded-ink" cert="high">a</supplied>no</w> due!"</q>
+                    <lb facs="#p1r17"/>
+                    Il <ref target="#capi">capo</ref> della baracca <distinct resp="#MC #SP">crolla</distinct> la testa, dubbioso. Si rifà il conto:
+                    <lb facs="#p1r18"/>
+                    <q type="spoken" who="#milite" toWhom="#capi"><num type="cardinal" value="29">"Ventinove</num>! "</q> <pc force="strong">-</pc><q type="spoken" who="#capi" toWhom="#milite">"Va bene"</q>. Ciò accade, a volte, anche se i <num type="cardinal" value="29">29</num> <q type="emph">"bene"</q>
+                    <lb facs="#p1r19"/>
+                    non corrispondono proprio alla realtà. Tanto, nessuno scappa, per
+                    <lb facs="#p1r20"/>
+                    quanto <w>si<supplied reason="faded-ink" cert="high">a</supplied></w> grande la sua <w><subst><del hand="#typewriter" rend="overstrike">s</del><add place="inline">a</add></subst>spirazione</w> verso la <w>libert<supplied reason="faded-ink" cert="high">à</supplied></w>.
+
+                </ab>
+                
+                <ab type="paragraph" n="5" facs="#p1par5" rend="indent">
+                    <lb facs="#p1r21"/>
+                    La <term><ref target="#ronda">ronda</ref></term> saluta e se ne va. Il portamento, già non troppo rigido,
+                    <lb facs="#p1r22"/>
+                    si allenta, le conversazioni interrotte si riallacciano, a meno che il
+                    <lb facs="#p1r23"/>
+                    <ref target="#capi">capo</ref> non <w><subst><del rend="overstrike" hand="#typewriter"><gap reason="deleted" extent="circa 10 caratteri" unit="chars"/></del><add place="above" hand="#typewriter">annunci</add></subst></w>, approfittando della riunione, questa o quella
+                    <lb facs="#p1r24"/>
+                    comunicazione ufficiale della <name>Direzione</name> del campo o dell' assemblea
+                    <lb facs="#p1r25"/>
+                    dei <ref target="#capi">capi</ref><subst><del hand="#writer" rend="strikethrough">baracca</del><add hand="#writer" place="above">camerata</add></subst>. Si approva, si critica, si <w>co<supplied reason="faded-ink" cert="high">mm</supplied>enta</w> allegramente il
+                    <lb facs="#p1r26"/>
+                    comunicato, perchè il buon umore nessuno se lo <w>guast<supplied reason="faded-ink" cert="high">a</supplied></w>, anche se, di
+                    <lb facs="#p1r27"/>
+                    tanto in tanto, gli animi, colmi della <distinct resp="#MC #SP">piccineria</distinct> di quel mondo, si
+                    <lb facs="#p1r28"/>
+                    <w>urt<supplied reason="faded-ink" cert="high">a</supplied>no</w>. <q type="spoken" who="#capi"><subst><del rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">j</unclear></del><add place="inline" hand="#typewrite">"</add></subst>Vero"</q>, <w><supplied reason="faded-ink" cert="high">d</supplied>ice</w> l' imperturbabile capo, e <w><subst><del rend="overstrike"><gap reason="deleted" quantity="6" unit="chars"/></del><add hand="#typewriter" place="inline">toglie</add></subst></w> la seduta.
+                </ab>
+                
+                <ab type="paragraph" n="6" facs="#p1par6" rend="indent">
+                    <lb facs="#p1r29"/>
+                    Qualche volta, poi, durante l' appello, compare una piccola <ref target="#bambina">fi</ref><pc force="weak">-</pc>
+                    <lb facs="#p1r30" break="no"/> 
+                    <ref target="#bambina">gura</ref>: una <ref target="#bambina">bambina</ref>. I lunghi riccioli neri le <w>ca<supplied reason="faded-ink" cert="high">d</supplied>ono</w> sulle spalle,
+                    <lb facs="#p1r31"/>
+                    gli occhi scuri, un po' pungenti, guardano arditi <w>l<supplied reason="faded-ink" cert="high">a</supplied></w> folla. Il nasino
+                    <lb facs="#p1r32"/>
+                    a patata si arriccia, la testina abbronzata si volta a destra e a <w>si<pc force="weak">-</pc>
+                    <lb facs="#p1r33" break="no"/>                     
+                    nistra</w>.
+                </ab>
+                
+                <ab type="paragraph" n="7" facs="#p1par7" rend="indent">
+                    <lb facs="#p1r34"/>
+                    La <ref target="#bambina">bimba</ref>, un tesoro, ripete per gioco la scena, la voce <w>argenti<pc force="weak">-</pc>
+                    <lb facs="#p1r35" break="no"/>
+                    na</w> grida: <q type="spoken" who="#bambina">" Appello!"</q>, conta <q type="spoken" who="#bambina"><num type="cardinal" value="1">"uno</num>, <num type="cardinal" value="2">due</num>, <num type="cardinal" value="3">tre</num>, <num type="cardinal" value="5">cinque</num>, <num type="cardinal" value="8">otto</num><ellipsis><metamark>.........</metamark></ellipsis>"</q>
+                </ab>
+                
+            </div>
+            <!-- SECONDA PAGINA -->
+            <div type="page" n="2" facs="#pagina2">
+                <pb n="2" facs="#pag2"/>
+                
+                <fw type="heading" n="2" facs="#p2int">
+                    <lb facs="#p2int"/>          
+                        <milestone unit="section" facs="#p2r1_int"/>
+                        <fw type="header"><title><q type="mentioned">"Appello! "</q></title></fw>
+                        <space resp="#MC #SP" dim="horizontal" quantity="54" unit="chars"/>
+                        <milestone unit="section" facs="p2r1_num"/>
+                        <fw type="pageNum"><num type="cardinal" value="2">2</num>&#41;</fw> <!-- ")" in XML è &#41 -->
+                </fw>
+                
+                <ab type="paragraph" n="7" facs="#p2par1">
+                    <lb facs="#p2r2"/>
+                    e non si lascia interrompere da nessun richiamo, conta fin <w>do<subst><del rend="overstrike"><gap reason="cancelled" quantity="1" unit="char"/></del><add hand="#typewriter" place="inline">v</add></subst>e</w> sa
+                    <lb facs="#p2r3"/>
+                    contare. All' altro estremo della baracca, verso la porta d'uscita
+                    <lb facs="#p2r4"/>
+                    posteriore, l' <w><subst><del hand="#writer" rend="strikethrough">omiciattolo</del><add hand="#writer" place="above"><ref target="#bambino">esserino</ref></add></subst></w> di <num type="cardinal" value="3">tre</num> anni si volta e, sull' attenti,
+                    <lb facs="#p2r5"/>
+                    comunica al <ref target="#funzionario">funzionario</ref> che si indugia un numero <w>qualsi<subst><del rend="overstrike">s</del><add hand="#typewriter" place="inline">a</add></subst>si</w>: <q type="spoken" who="#bambino" toWhom="#funzionario">"manca <num type="cardinal" value="1">uno</num>! "</q> <supplied reason="omitted-in-original" resp="#MC #SP">.</supplied> 
+                </ab>
+
+                <ab type="paragraph" n="8" facs="#p2par8" rend="indent">
+                    <lb facs="#p2r6"/>
+                    Il vecchio <ref target="#milite">milite</ref> pensa a casa sua. L' <ref target="#agente">agente</ref> quasi non si <w>ac<pc force="weak">-</pc>
+                    <lb facs="#p2r7" break="no"/>
+                    corge</w> della <w>sche<supplied reason="faded-ink" cert="high">m</supplied>atica</w> <w>mono<subst><del rend="overstrike">m</del><add hand="#typewriter" place="inline">t</add></subst>onia</w> del servizio.
+                </ab>
+
+                <ab type="paragraph" n="9" facs="#p2par9" rend="indent">
+                    <lb facs="#p2r8"/>
+                    Su tutti i volti <said aloud="false" direct="false"><pc force="strong">-</pc><add hand="#typewriter" place="above">sia</add> <w>del<add place="inline">lo</add><del rend="overstrike" hand="#typewriter"><unclear reason="illegible" cert="low" resp="#MC #SP">giovane</unclear></del></w> <w><del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">grassoccio</unclear>,</del></w> scapolo ostinato<del rend="overstrike" hand="#typewriter">,<unclear reason="illegible" cert="low" resp="#MC #SP">come</unclear></del> che
+                    <lb facs="#p2r9"/>
+                    del <ref target="#compagni">padre</ref> di famiglia, del <ref target="#compagni">giovane</ref> o dell' <ref target="#compagni">anziano</ref><pc force="strong">-</pc></said><add facs="#p2r9_margin" hand="#writer" place="above margin-right">che proprio per assistere alla <w>scen<retrace cause="unclear">etta</retrace></w> non hanno ancora lasciato il loro posto presso il letto</add> aleggia un sorriso
+                    <lb facs="#p2r10"/>
+                    allegro, che per un breve istante <add hand="#typewriter" place="above">li</add> rende veramente felici e spensierati.
+                </ab>
+
+                <ab type="paragraph" n="10" facs="#p2par10" rend="indent">
+                    <lb facs="#p2r11"/>
+                    Nella spoglia baracca è passato <seg><subst><del hand="#writer" rend="strikethrough">il futuro</del><add place="above" hand="#writer">l'avvenire</add></subst></seg>, libero da ogni <w>costri<pc force="weak">-</pc>
+                    <lb facs="#p2r12" break="no"/>
+                    zione</w>, il <ref target="#bambino">bimbo</ref>, ed ha irradiato su ogni cuore un po' di sole, un poco
+                    <lb facs="#p2r13"/>
+                    di speranza.
+                </ab>
+                
+                <ab type="paragraph" n="11" facs="#p2par11" rend="indent">
+                    <lb facs="#p2r14"/>
+                    <w><supplied reason="faded-ink" cert="high">P</supplied>otremmo</w> forse sopportare tanto dolore, se non sapessimo che i
+                    <lb facs="#p2r15"/>
+                    nostri <ref target="#famiglia">bimbi</ref> vivono?
+                    <space dim="vertical" quantity="3" unit="lines"/>
+                    <lb facs="#p2par5_trat"/>
+                    <metamark function="separation" place="center">====================</metamark>
+                </ab>
+                
+            </div>
+            <!-- TERZA PAGINA -->
+            <div type="page" n="3" facs="#pagina3">
+                <pb n="3" facs="#pag3"/>
+                
+                <fw type="heading" n="3" facs="#p3int">
+                    <lb facs="#p3r1"/>
+                    <fw type="header"><seg rend="underline"><space resp="#MC #SP" quantity="5" unit="chars"/><title rend="align(center) case(allcaps)">LA <space resp="#MC #SP" quantity="6" unit="chars"/>POSTA<space resp="#MC #SP" quantity="19" unit="chars"/></title></seg></fw> 
+                    <lb facs="#p3r2"/>
+                    di <persName><forename><choice n="short"><abbr type="suspension">A<am>.</am></abbr><expan>A<ex resp="#MC #SP">rthur</ex></expan></choice></forename> <surname>Lehmann</surname></persName>.
+                </fw>
+                
+                <ab type="paragraph" n="12" facs="#p3par1">
+                    <lb facs="#p3r3"/>
+                    Le scritture messaggere del mondo esterno ed il <w><del hand="#typewriter" rend="ovrestrike"><unclear reason="illegible" cert="low" resp="#MC #SP">loro</unclear></del></w> bagaglio che le accompagna
+                    <lb facs="#p3r4"/>
+                    non sono salutate di certo dal <q type="mentioned">"<foreign xml:lang="de" xml:id="trara"><seg>Trara, trara, die Post ist da</seg></foreign>! "</q><supplied reason="omitted-in-original" resp="#MC #SP">.</supplied> Esse non sono
+                    <lb facs="#p3r5"/>
+                    nemmeno le <w>bi<supplied reason="faded-ink" cert="high">a</supplied>nche</w> colombe della pace, con la foglia d' olivo nel becco,<supplied reason="omitted-in-original"><space resp="#MC #SP" quantity="1" unit="char"/></supplied><supplied reason="omitted-in-original" resp="#MC #SP"><space resp="#MC #SP" quantity="1" unit="char"/></supplied>simbolo 
+                    <lb facs="#p3r6"/>
+                    <w><del rend="overstrike" hand="#typewriter"><unclear reason="illegible" cert="low" resp="#MC #SP">indicante che le acque sanguinolente del diluvio</unclear></del></w> <w><del rend="overstrike" hand="#typewriter"><gap reason="deleted" extent="circa 22 caratteri" unit="chars"/></del></w> <w><del rend="overstrike" hand="#typewriter"><gap reason="deleted" extent="circa 15 caratteri" unit="chars"/></del></w> del deflusso delle acque <w>sangui<pc force="weak">-</pc>
+                    <lb facs="#p3r7" break="no"/>
+                    nolente</w> del <name>Diluvio</name>, ma sono l'unico legame coi grandi avvenimenti del nostro
+                    <lb facs="#p3r8"/>
+                    tempo. Il giornale <w>itali<supplied reason="faded-ink" cert="high">a</supplied>no</w> che giunge <q type="emph">"quasi"</q> quotidianamente, ed a volte anche
+                    <lb facs="#p3r9"/>
+                    un foglio in tedesco, la <q type="term">"<foreign xml:lang="de" xml:id="illus"><name>Illustrierten</name></foreign>"</q>, <add place="above" hand="#writer"><w><unclear reason="illegible" cert="low" resp="#MC #SP">informano</unclear></w></add><w><del hand="#writer" rend="strikethrough"><unclear reason="illegible" cert="low" resp="#MC #SP">forniscono</unclear></del></w> <w>informa<subst><del rend="overstrike" hand="#writer">no</del><add place="below" hand="#writer">zioni</add></subst></w> <seg><subst><del hand="#writer" rend="strikethrough">di fatto</del><add place="above" hand="writer">sobrie</add></subst></seg> sul corso degli
+                    <lb facs="#p3r10"/>
+                    avvenimenti e <del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">danno</unclear></del> forniscono soggetti di conversazione.
+                </ab>
+                
+                <ab type="paragraph" n="13" facs="#p3par2" rend="indent">
+                    <lb facs="#p3r11"/>
+                    <w><supplied reason="faded-ink" cert="high">M</supplied>a</w> ai segni dell' <seg><soCalled>arte nera</soCalled></seg>, come erano chiamate le lettere nel <name>Medioevo</name>,
+                    <lb facs="#p3r12"/>
+                    manca il pulsare del cuore dei <ref target="#famiglia">parenti</ref> e degli <ref target="#famiglia">amici</ref> <w>amic<subst><del rend="overstrike">a</del><add place="inline" hand="#typewriter">i</add></subst></w> che condividono le nostre
+                    <lb facs="#p3r13"/>
+                    sensazioni.
+                </ab>
+
+                <ab type="paragraph" n="14" facs="#p3par3" rend="indent">
+                    <lb facs="#p3r14"/>
+                    Nelle <ref target="#famiglia">loro</ref> lettere, comunque, si <w>muov<supplied reason="faded-ink" cert="high">e</supplied></w> soltanto il piccolo mondo, a noi
+                    <lb facs="#p3r15"/>
+                    tanto vicino, delle preoccupazioni sulla rispettiva <w><subst><del rend="strikethrough" hand="#writer">posizione</del><add place="above" hand="#writer">condizione</add></subst></w>, attività, sul
+                    <lb facs="#p3r16"/>
+                    bisogno di tutti i giorni, delle molte domande e risposte che debbono sostitutire
+                    <lb facs="#p3r17"/>
+                    <w>gli<del hand="#typewriter" rend="overstrike">a</del></w> scambi d' idee <del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">a</unclear></del> <del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">voce</unclear></del> verbali. Qui non c' è <del hand="#writer" rend="overstrike">un</del> telefono, <subst><del hand="#writer" rend="strikethrough">una</del><add hand="#writer" place="above">nè</add></subst> radio <add hand="#writer" place="above">in</add> <w>comu<pc force="weak">-</pc>
+                    <lb facs="#p3r18" break="no"/>
+                    ne</w>, c' è appena una macchina <seg><supplied reason="faded-ink" cert="high">da scrivere</supplied></seg>, <seg><subst><del hand="#writer" rend="strikethrough">e, se pure c' è</del><add place="above" hand="#writer">che prevalentemente</add></subst></seg>, serve alla <w>corrispon<pc force="weak">-</pc>
+                    <lb facs="#p3r19" break="no"/>
+                    d<supplied reason="faded-ink" cert="high">e</supplied>nza</w> d' ufficio, all' attività ufficiale. Per questo, si è nuovamente imparato
+                    <lb facs="#p3r20"/>
+                    a scrivere, come si scrivevano, <num type="cardinal" value="100">cento</num> o <choice n="short"><abbr><num type="cardinal" value="150">centocinquant</num><am>'</am></abbr><expan>centociquant<ex>a</ex></expan></choice> anni fa, i propri <w>senti<pc force="weak">-</pc>
+                    <lb facs="#p3r21" break="no"/>
+                    menti</w>, ma assai di più, e con maggiore frequenza, sebbene la durata del viaggio
+                    <lb facs="#p3r22"/>
+                    delle lettere, <w>nono<choice n="new" resp="#MC #SP"><sic>a</sic><corr>s</corr></choice>tante</w> le ferrovie e gli <w>a<supplied reason="faded-ink" cert="high">e</supplied>ro<supplied reason="faded-ink" cert="high">p</supplied>lani</w>, sia a volte <del hand="#typewriter" rend="overstrike">di</del> poco <w>p<subst><del rend="overstrike">u</del><add hand="#typewriter" place="inline">i</add></subst>ù</w>
+                    <lb facs="#p3r23"/>
+                    <w>br<choice n="new" resp="#MC #SP"><sic>a</sic><corr>e</corr></choice>ve</w> di allora. Ci si è veramente <w>innam<subst><del rend="overstrike"><gap reason="cancelled" quantity="2" unit="chars"/></del><add hand="#typewriter" place="inline">or</add></subst>ati</w> di nuovo. Diversi, anche fra i
+                    <lb facs="#p3r24"/>
+                    <ref target="#compagni">mariti</ref> più anziani, riescono ad inoltrare alla loro <ref target="#famiglia">metà</ref> dei rapporti quasi <w>quo<pc force="weak">-</pc>
+                    <lb facs="#p3r25" break="no"/>
+                    tidiani</w> sulle piccole cose della nostra vita, o a riceverli, per evitare che i
+                    <lb facs="#p3r26"/>
+                    <subst><del rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">legami</unclear></del><add hand="#writer" place="inline">lacci</add></subst> della convivenza si allentino, anzi, per legarli <w>nuova<supplied reason="faded-ink" cert="high">m</supplied>ente</w> o per <w>r<subst><del rend="overstrike">ir</del><add hand="#writer" place="inline">af</add></subst>for<pc force="weak">-</pc>
+                    <lb facs="#p3r27" break="no"/>
+                    zarli</w>.
+                </ab>
+
+                <ab type="paragraph" n="15" facs="#p3par4" rend="indent">
+                    <lb facs="#p3r28"/>
+                    <w><supplied reason="faded-ink" cert="high">F</supplied>orse</w> <q type="thought" who="#AL"><pc force="strong">-</pc>non voglio riesumare vecchie storie coniugali <pc force="strong">-</pc></q>  c' entra anche la 
+                    <lb facs="#p3r29"/>
+                    fortunata <w>circost<supplied reason="faded-ink" cert="high">a</supplied>nza</w> che, mentre si riempie di scrittura la paziente carta, la
+                    <lb facs="#p3r30"/>
+                    <w>rispost<supplied reason="faded-ink" cert="high">a</supplied></w> non è così immediata <w>co<supplied reason="faded-ink" cert="high"><unclear reason="illegible" cert="low" resp="#MC #SP">m</unclear>e</supplied></w> nei rapporti verbali, e quindi si può <w>di<supplied reason="faded-ink" cert="high">s</supplied>cor<pc force="weak">-</pc>
+                    <lb facs="#p3r31" break="no"/>
+                    rere</w> tranquillamente. Comunque sia, si può <subst><del rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">appurare</unclear></del><add hand="#typewriter" place="inline">aff<unclear reason="illegible" cert="high" resp="#MC #SP">erma</unclear>re</add></subst><supplied reason="omitted-in-original" resp="#MC #SP"><space resp="#MC #SP" quantity="1" unit="char"/></supplied>senza esagerazione che le
+                    <lb facs="#p3r32"/>
+                    due cassette per le lettere <w>d<subst><del rend="overstrike"><gap reason="cancelled" quantity="1" unit="char"/></del><add hand="#typewriter" place="inline">i</add></subst></w> legno, con l' iscrizione riguardante la separazione
+                    <lb facs="#p3r33"/>
+                    delle lettere in lingua italiana da <w>que<subst><del rend="overstrike">s</del><add hand="#typewriter" place="inline">l</add></subst>le</w> in altre lingue, sono le principali
+                    <lb facs="#p3r34"/>
+                    valvole che danno uno sfogo alla tensione dell' amore e della nostalgia.
+                </ab>
+                    
+                <ab type="paragraph" n="16" facs="#p3par5" rend="indent">   
+                    <lb facs="#p3r35"/>
+                    Ecco il <w>mecc<supplied reason="faded-ink">a</supplied>nismo</w> di questa vaporiera dei pensieri: <placeName>Ferramonti</placeName> è bensì
+                    <lb facs="#p3r36"/>
+                    <add hand="#typewriter" place="left">molto</add> vicina ad una linea ferroviaria, ma non ad una stazione. <del hand="#writer" rend="strikethrough">Nella tecnica</del><add hand="#writer" rend="below">Agli effetti</add> <w>postal<subst><del rend="overstrike">e</del><add place="inline" hand="#writer">i</add></subst></w><del hand="#writer" rend="scribble">,</del>
+                </ab>
+            </div>
+            <!-- QUARTA PAGINA -->
+            <div type="page" n="4" facs="#pagina4">
+                <pb n="4" facs="#pag4"/>
+                
+                <fw type="heading" n="4" facs="#p4int">
+                    <lb facs="#p4int"/>          
+                        <milestone unit="section" facs="#p4r1_int"/>
+                        <fw type="header"><title rend="case(allcaps)">LA POSTA (<persName><forename><choice n="short"><abbr type="suspension">A<am>.</am></abbr><expan>A<ex resp="#MC #SP">rthur</ex></expan></choice></forename><supplied reason="omitted-in-original"><space resp="#MC #SP" quantity="1" unit="char"/></supplied><surname>Lehmann</surname></persName>)</title></fw>
+                        <space resp="#MC #SP" dim="horizontal" quantity="23" unit="chars"/>
+                        <milestone unit="section" facs="p4r1_num"/>
+                        <fw type="pageNum">= <num type="cardinal" value="2">2</num> =</fw> 
+                </fw>
+
+                <ab type="paragraph" n="16" facs="#p4par1">
+                    <lb facs="#p4r2"/>
+                    dipende da <placeName><w>Tar<choice n="new" resp="#MC #SP"><sic>a</sic><corr>s</corr></choice>ia</w></placeName>, una località posta su un' altura a circa <num type="cardinal" value="7">sette</num> <choice n="short"><abbr>km<am>.</am></abbr><expan>k<ex>ilo</ex>m<ex>etri</ex></expan></choice>, e che,
+                    <lb facs="#p4r3"/>
+                    a sua volta, dista circa <num type="cardinal" value="7">sette</num> <choice n="short"><abbr>km<am>.</am></abbr><expan>k<ex>ilo</ex>m<ex>etri</ex></expan></choice> dalla sua stazione. Si raggiunge però più
+                    <lb facs="#p4r4"/>
+                    comodamente la stazione di <placeName>Mongrassano</placeName>. E' di qui, <w>dun<subst><del rend="overstrike">c</del><add hand="#typewriter" place="inline">q</add></subst>ue</w>, che ogni sacco <w>po<pc force="weak">-</pc>
+                    <lb facs="#p4r5" break="no"/>
+                    stale</w>, ogni pacchetto <said aloud="false" direct="false"><pc force="strong">-</pc><seg>sul<subst><del hand="#typewriter" rend="overstrike"><gap reason="cancelled" quantity="9" unit="chars"/></del><add hand="#typewriter" place="inline">la linea</add></subst></seg> a binario unico circola un buon numero di
+                    <lb facs="#p4r6"/>
+                    treni <w>d<supplied reason="faded-ink" cert="high">a</supplied></w> e per <placeName>Cosenza</placeName> <pc force="strong">-</pc></said> viene trasportato all' edificio della posta, o, per
+                    <lb facs="#p4r7"/>
+                    meglio dire, all' ufficio postale di <placeName>Tarsia</placeName>. Qui avviene la cernita: <w><retrace>l</retrace>e</w> lettere
+                    <lb facs="#p4r8"/>
+                    in <w>li<choice n="new" resp="#MC #SP"><sic>gn</sic><corr>ng</corr></choice>ue</w> straniere rifanno il viaggio a <placeName>Cosenza</placeName> per motivi di <name>Censura</name>, quelle
+                    <lb facs="#p4r9"/>
+                    in italiano subiscono la censura nel campo. Non c' è da stupirsi se si hanno
+                    <lb facs="#p4r10"/>
+                    dei sensibili ritardi, a volte di <num type="cardinal" value="2">due</num> o <num type="cardinal" value="3">tre</num> settimane, e se giungono in <w>distri<pc force="weak">-</pc>
+                    <lb facs="#p4r11" break="no"/>
+                    buzione</w> <w>cont<supplied reason="faded-ink" cert="high">em</supplied>poraneamente</w> lettere di date diverse, <w>vi<subst><del rend="overstrike">i</del><add hand="#typewriter" place="inline">s</add></subst>to</w> che la censura, <del hand="#writer" rend="strikethrough">appa</del><pc force="weak">-</pc>
+                    <lb facs="#p4r12" break="no"/>
+                    <del hand="#writer" rend="strikethrough">rent<supplied reason="faded-ink" cert="high">em</supplied>ente</del> <add hand="#writer" place="above">a quanto pare;</add><del hand="#writer" rend="overstrike">,</del> lavora a scatti. Qualche volta, capita che <w>un<supplied reason="faded-ink" cert="high">a</supplied></w> <w>letter<retrace>a</retrace></w> non arrivi
+                    <lb facs="#p4r13"/>
+                    del tutto.
+                </ab> 
+                
+                <ab type="paragraph" n="17" facs="#p4par2" rend="indent">
+                    <lb facs="#p4r14"/>
+                    Questo però non <w>r<choice n="new" resp="#MC #SP"><sic>a</sic><corr>e</corr></choice>c<supplied reason="faded-ink" cert="high">a</supplied></w> alcun danno all' amore. La brama di <q type="written">"<name>Posta</name>"</q> non <w>au<pc force="weak">-</pc>
+                    <lb facs="#p4r15" break="no"/>
+                    menta</w> solo col quadrato della distanza<retrace>;</retrace> ma anche con ogni giorno di <w>rita<subst><del rend="overstrike"><gap reason="cancelled" quantity="1" unit="chars"/></del><add hand="#typewriter" place="inline">rd</add></subst>o</w>.
+                </ab>
+
+                <ab type="paragraph" n="18" facs="#p4par3" rend="indent">
+                    <lb facs="#p4r16"/>
+                    <q type="mentioned">"<term>Chi va alla <w><supplied reason="faded-ink" cert="high">p</supplied>ost<supplied reason="faded-ink" cert="high">a</supplied></w>?</term>"</q> significa: <gloss resp="#AL"><said aloud="true" direct="true"><ref target="#compagni">chi</ref> ha l' <w>inc<supplied reason="faded-ink" cert="high">a</supplied>rico<del hand="#typewriter" rend="overstrike">,<gap reason="deleted" extent="circa 5 caratteri" unit="chars"/></del></w> <w><del hand="#typewriter" rend="overstrike"><gap reason="deleteed" extent="circa 8 caratteri" unit="chars"/></del></w> <w><del hand="#typewriter" rend="overstrike"><gap reason="deleted" extent="circa 2 caratteri" unit="chars"/>,</del></w> di
+                    <lb facs="#p4r17"/>
+                    prendere in consegna alle <seg><subst><del rend="overstrike"><num type="cardinal" value="5">5</num>,</del><add place="above" hand="#writer"><num type="cardinal" value="5">cinque</num>,</add></subst></seg> all' ufficio postale, le lettere destinate alla
+                    <lb facs="#p4r18"/>
+                    sua camerata, che vengono <w>d<subst><del rend="overstrike"><gap reason="cancelled" quantity="2" unit="chars"/></del><add hand="#typewriter" place="inline">is</add></subst>tribuite</w> mediante appello?</said></gloss> <w><choice n="new" resp="#MC #SP"><sic>C</sic><corr>G</corr></choice>ià</w> sulla strada <w><subst><del rend="overstrike">v</del><add hand="#typewriter" place="inline">c</add></subst>he</w>
+                    <lb facs="#p4r19"/>
+                    porta alla baracca <ref target="#compagni">gli</ref> chiedono <num value="12">dozzine</num> di volte <q type="spoken" who="#compagni" toWhom="#commpagni">"C' è posta per me?"</q> Ma <w>poi<retrace>!</retrace></w>
+                    <lb facs="#p4r20"/>
+                    <w><subst><del rend="overstrike"><gap reason="illegible" quantity="2" unit="chars"/></del><add hand="#typewriter" place="inline">In</add></subst></w> primo luogo, dopo aver riconosciuto sulla busta la cara scrittura, si studia
+                    <lb facs="#p4r21"/>
+                    il timbro postale, poi lo si confronta con la data della <w>lett<subst><del rend="overstrike"><gap reason="cancelled" quantity="1" unit="char"/></del><add hand="#typewriter" place="inline">e</add></subst>ra</w>, già aperta
+                    <lb facs="#p4r22"/>
+                    dalla censura,<supplied reason="omitted-in-original" resp="#MC #SP"><space resp="#MC #SP" quantity="1" unit="char"/></supplied>e si stabilisce la durata del viaggio.
+                </ab>
+
+                <ab type="paragraph" n="19" facs="#p4par4" rend="indent">
+                    <lb facs="#p4r23"/>
+                    <q type="spoken" who="#compagni" toWhom="#compagni">"La mia lettera ha impiegato solo <num type="cardinal" value="4">quattro</num> giorni da <placeName><w><supplied reason="faded-ink" cert="high">M</supplied>ilano</w></placeName>!"</q> si comunica <del hand="#typewriter" rend="overstrike">,</del>
+                    <lb facs="#p4r24"/>
+                    <w><del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">senza</unclear></del>ai</w> <ref target="#compagni">compagni</ref>, senza essere stati interpellati, ad alta voce, con gioia, come
+                    <lb facs="#p4r25"/>
+                    in un monologo.
+                </ab>
+                
+                <ab type="paragraph" n="20" facs="#p4par5" rend="indent">
+                    <lb facs="#p4r26"/>
+                    <q type="spoken" who="#compagni" toWhom="#compagni">"<w><supplied reason="faded-ink" cert="high">M</supplied>i</w> mancano solo più <num type="cardinal" value="2">due</num> lettere del <num type="cardinal" value="25">25</num> e del <num type="cardinal" value="26">26"</num></q>, <w>dic<supplied reason="faded-ink" cert="high">e</supplied></w> un <ref target="#compagni">altro</ref>, che,
+                    <lb facs="#p4r27"/>
+                    con sua <ref target="#famiglia">moglie</ref>, assegna un numero progressivo alla sua corrispondenza ed ha <w>ap<pc force="weak">-</pc>
+                    <lb facs="#p4r28" break="no"/>
+                    pena</w> ricevuto la lettera del <num type="cardinal" value="27">27</num>.
+                </ab>
+
+                <ab type="paragraph" n="21" facs="#p4par6" rend="indent">    
+                    <lb facs="#p4r29"/>
+                    Dopo <w><supplied reason="faded-ink" cert="high">c</supplied>iò</w>, nella baracca si fa <w>calm<supplied reason="omitted-in-original" cert="high">a</supplied></w>, per molto tempo. <ref target="#compagni">Ognuno</ref> è occupato
+                    <lb facs="#p4r30"/>
+                    completamente <w><supplied reason="faded-ink" cert="high">a</supplied>d</w> assorbire il contenuto, a digerirlo, <w><supplied reason="faded-ink" cert="high">a</supplied></w> meditare la risposta.
+                    <lb facs="#p4r31"/>
+                    Perchè questo è caratteristico: entro pochi minuti, la <w>mag<supplied reason="faded-ink" cert="high">g</supplied>ior</w> parte dei tavoli
+                    <lb facs="#p4r32"/>
+                    è occupata, a volte anche i letti e le valigie <w>fan<supplied reason="faded-ink" cert="high">n</supplied>o</w> da scrittoio. La risposta
+                    <lb facs="#p4r33"/>
+                    <seg><subst><del hand="#writer" rend="strikethrough">è veramente</del><add hand="#writer" place="above">viene</add></subst></seg> <w><subst><del hand="#writer" rend="strikethrough">sistemata</del><add hand="#writer" place="above">approvata</add></subst></w> a stretto giro di posta, qualche volta <add hand="#writer" place="above">si scrive</add> <w><supplied reason="faded-ink" cert="high">f</supplied>ino</w> a tarda sera,
+                    <lb facs="#p4r34"/>
+                    mentre <ref target="#compagni">altri</ref> preferiscono le ore del mattino, sperando <w>fors<supplied reason="faded-ink" cert="high">e</supplied></w> <w><subst><del rend="overstrike"><gap reason="cancelled" extent="circa 3 caratteri" unit="chars"/></del><add hand="#typewriter" place="inline">che</add></subst></w> <w><del hand="#typewriter" rend="overstrike"><gap extent="circa 8 caratteri" unit="chars"/></del><supplied reason="faded-ink" cert="high">s</supplied>put<retrace>i</retrace><subst><del hand="#typewriter" rend="overstrike"><gap quantity="2" unit="chars"/></del><add hand="#typewriter" place="inline">no</add></subst></w>
+                    <lb facs="#p4r35"/>
+                    <del hand="#typewriter" rend="overstrike">l' oro che hanno in bocca</del> una buona volta l' oro che hanno in bocca. L' <w>impor<pc force="weak">-</pc>
+                    <lb facs="#p4r36" break="no"/>
+                    tante</w> è soprattutto che la lettera raggiunga la cassetta postale entro le <num type="cardinal" value="8">otto</num>
+                    <lb facs="#p4r37"/>
+                    del <w><supplied reason="faded-ink" cert="high">m</supplied>attino</w>, ora alla quale, una volta al giorno, questa viene vuotata del suo
+                    <lb facs="#p4r38"/>
+                    contenuto, che <w><supplied reason="faded-ink" cert="high">a</supplied></w> volte si <w>a<supplied reason="faded-ink" cert="high">mm</supplied>ucchia</w> fino al coperchio. Il grido <w>m<supplied reason="faded-ink" cert="high">a</supplied>ttu<subst><del rend="overstrike">r</del><add hand="#writer" place="inline">t</add></subst>ino</w> <q type="mentioned">"<term>Chi
+                    <lb facs="#p4r39"/>
+                    va alla post<supplied reason="faded-ink" cert="high">a</supplied>?</term>"</q> raccoglie le <w><supplied reason="faded-ink" cert="high">l</supplied>ettere</w> in partenza dalla baracca.
+                </ab>
+
+            </div>
+            <!-- QUINTA PAGINA -->
+            <div type="page" n="5" facs="#pagina5">
+                <pb n="5" facs="#pag5"/>
+
+                <fw type="heading" n="5" facs="#p5int">
+                    <lb facs="#p5int"/>          
+                        <milestone unit="section" facs="#p5r1_int"/>
+                       <fw type="header"><title rend="case(allcaps)">LA POSTA <subst><del rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">3</unclear></del><add place="inline">(</add></subst><persName><forename><choice n="short"><abbr type="suspension">A<am>.</am></abbr><expan>A<ex resp="#MC #SP">rthur</ex></expan></choice></forename><supplied reason="omitted-in-original"><space resp="#MC #SP" quantity="1" unit="char"/></supplied><surname>Lehmann</surname></persName>)</title></fw>
+                        <space resp="#MC #SP" dim="horizontal" quantity="23" unit="chars"/>
+                        <milestone unit="section" facs="p5r1_num"/>
+                        <fw type="pageNum">= <num type="cardinal" value="3">3</num> =</fw>
+                </fw>
+
+                <ab type="paragraph" n="21" facs="#p5par1">
+                    <lb facs="#p5r2"/>
+                    Poco dopo, una <w><supplied reason="faded-ink" cert="high">m</supplied>otocicletta</w> porta tutto a <placeName>Tarsia</placeName>.
+                </ab>
+
+                <ab type="paragraph" n="22" facs="#p5par2" rend="indent">
+                    <lb facs="#p5r3"/>
+                    Così tutto si svolge nella migliore <w>ar<supplied reason="faded-ink" cert="high">m</supplied>onia</w>, incrinata solo qualche volta
+                    <lb facs="#p5r4"/>
+                    dall' impazienza o dalle preoccupazioni, se il contenuto <w>dell<retrace>a</retrace></w> <w>letter<choice n="new" resp="#MC #SP"><sic>e</sic><corr>a</corr></choice></w> non è
+                    <lb facs="#p5r5"/>
+                    stato corrispondente a quanto ci si aspettava o non <w><subst><del rend="overstrike"><gap reason="cancelled" quantity="2"/></del><add hand="#typewriter" place="inline">si</add></subst></w> è avverata la speranza
+                    <lb facs="#p5r6"/>
+                    di poter <w>port<supplied reason="faded-ink" cert="high">a</supplied>re</w> a <w>t<supplied reason="faded-ink" cert="high">e</supplied>rmine</w> questo o quel progetto d' <w><supplied reason="faded-ink" cert="high">em</supplied>igra<supplied reason="faded-ink" cert="high">z</supplied>ione</w>, o di <del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">avere</unclear></del>
+                    <lb facs="#p5r7"/>
+                    <w>otten<subst><del rend="overstrike"><gap reason="cancelled" quantity="3" unit="chars"/></del><add hand="#typewriter" place="inline">ere</add></subst></w> l' <distinct resp="#MC #SP">accoglimento</distinct> della <q type="emph">"<name>Domanda</name>"</q> alle autorità.
+                </ab>
+                
+                <ab type="paragraph" n="23" facs="#p5par3" rend="indent">
+                    <lb facs="#p5r8"/>
+                    Questi problemi, infatti, per molti formano il nocciolo della <w>corrispon<pc force="weak">-</pc>
+                    <lb facs="#p5r9" break="no"/>
+                    denza</w>. In più, ci sono le notizie sulla salute, sugli studi dei <ref target="#famiglia">bambini</ref>, <w>sul<pc force="weak">-</pc>
+                    <lb facs="#p5r10" break="no"/>
+                    la</w> possibilità di conservare l' <w>allog<supplied reason="faded-ink" cert="high">g</supplied>io</w>. Oppure, <w>do<supplied reason="faded-ink" cert="high">m</supplied>anda</w> se si debba dare in
+                    <lb facs="#p5r11"/>
+                    affitto una camera, se si debba <del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">venire</unclear></del> chiudere la <w>c<supplied reason="faded-ink" cert="high">a</supplied>sa</w> e venire <w><del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">a</unclear></del></w> <w><del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">Ferramonti</unclear></del></w>
+                    <lb facs="#p5r12"/>
+                    con <w>ar<supplied reason="faded-ink" cert="high">m</supplied>i</w> e bagagli a <placeName>Ferramonti</placeName>, dove si vive in modo più <w>pri<supplied reason="faded-ink" cert="high">m</supplied>itivo</w>, d' accordo,
+                    <lb facs="#p5r13"/>
+                    ma <w>anch<retrace>e</retrace></w> con minor spesa e, forse, perfino meglio. Nelle lettere sono poi <w>in<pc force="weak">-</pc>
+                    <lb facs="#p5r14" break="no"/>
+                    serite</w> notizie sul rincaro generale, le<del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">u</unclear></del>uniche cose che si comunicano ai <ref target="#compagni">compa</ref><pc force="weak">-</pc>
+                    <lb facs="#p5r15" break="no"/>
+                    <ref target="#compagni">gni</ref> di baracca, perchè sono d' interesse generale, mentre su tutto il resto
+                    <lb facs="#p5r16"/>
+                    si <w><supplied reason="faded-ink" cert="high">m</supplied>antiene</w> di solito un certo riserbo, <w>nonostant<supplied reason="faded-ink" cert="high">e</supplied></w> che <ref target="#compagni">tutti</ref> siano amici e si
+                    <lb facs="#p5r17"/>
+                    <w>di<supplied reason="faded-ink" cert="high">a</supplied>no</w> del tu: generalmente si tratta solo d'amicizie occasionali. <ref target="#compagni">Ognuno</ref> si <w>de<pc force="weak">-</pc>
+                    <lb facs="#p5r18" break="no"/>
+                    ve</w> occupare <add place="above">già</add> troppo dei suoi affari. Non si dimentica il <w>te<supplied reason="faded-ink" cert="high">m</supplied>a</w> del tempo, che non
+                    <lb facs="#p5r19"/>
+                    manca affatto d' importanza <seg><supplied reason="faded-ink" cert="high">ed è caro a <ref target="#compagni">tutti</ref></supplied></seg>, dopo aver scritto, di questo o
+                    <lb facs="#p5r20"/>
+                    quel <ref target="#famiglia">parente</ref>, che si trova nel tale luogo, è partito per questa <w><supplied reason="faded-ink" cert="high">e</supplied></w> quella <w>desti<pc force="weak">-</pc>
+                    <lb facs="#p5r21" break="no"/>
+                    n<supplied reason="faded-ink" cert="high">az</supplied>ione</w> <q type="thought" who="#AL">(che suono triste hanno queste espressioni tecniche!)</q> si è ammalato o
+                    <lb facs="#p5r22"/>
+                    addirittura è morto. Sono notizie <w>ch<supplied reason="faded-ink" cert="high">e</supplied></w> purtroppo, ai nostri giorni, si ripetono
+                    <lb facs="#p5r23"/>
+                    sovente e <w>term<supplied reason="faded-ink" cert="high">i</supplied>na</w> con la considerazione, triste e <w>ra<retrace>s</retrace>segn<subst><del rend="overstrike"><gap reason="cancelled" quantity="2" unit="chars"/></del><add hand="#typewriter" place="inline">at</add></subst>a</w>: <q type="mentioned">"Ormai sta bene! "</q>,
+                    <lb facs="#p5r24"/>
+                    <q type="mentioned">"Ha trovato pace! "</q> o <q type="mentioned">"Ha finito <w><subst><del rend="overstrike">di</del><add hand="#writer" place="inline">le</add></subst></w> <add hand="#writer" place="above">sue</add> <w>peregrina<subst><del rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">re</unclear></del><add hand="#writer" place="inline">zioni</add></subst></w>! "</q>. Una nota viene omessa, tanto
+                    <lb facs="#p5r25"/>
+                    per ragioni di censura quanto per motivi tattici: la nota politica, <w>u<supplied reason="faded-ink" cert="high">n</supplied>a</w> <w rend="wavy_underline">brutta</w> <w>not<supplied reason="faded-ink" cert="high">a</supplied></w>.
+                </ab>
+
+                <ab type="paragraph" n="24" facs="#p5par4" rend="indent">
+                    <lb facs="#p5r26"/>
+                    Per questo, ci si precipita ancora più appasionatamente sui pochi giornali,
+                    <lb facs="#p5r27"/>
+                    illustrati, con le loro figure, le <w>ca<supplied reason="faded-ink" cert="high">r</supplied>tine</w>, le novelle, le battute umoristiche, le
+                    <lb facs="#p5r28"/>
+                    <w>parol<supplied reason="faded-ink" cert="high">e</supplied></w> incrociate e altri passatempi del genere, che <w><subst><del rend="overstrike"><gap reason="cancelled" extent="circa 7 caratteri" unit="chars"/></del><add hand="#typewriter" place="inline">passano</add></subst></w><supplied reason="omitted-in-original" resp="#MC #SP"><space resp="#MC #SP" quantity="1" unit="char"/></supplied>da <w>u<subst><del rend="overstrike">j</del><add hand="#typewriter" place="inline">n</add></subst>a</w> mano all' <w><subst><del rend="overstrike">l</del><add hand="#typewriter" place="inline">a</add></subst>ltra</w>,
+                    <lb facs="#p5r29"/>
+                    sovente di baracca in baracca, per quanto possano essere vecchi.
+                </ab> 
+
+                <ab type="paragraph" n="25" facs="#p5par5" rend="indent">
+                    <lb facs="#p5r30"/>
+                    <w><retrace>I</retrace>l</w> culmine della gloria si ha quando si riceve un pacco.
+                </ab>
+
+                <ab type="paragraph" n="26" facs="#p5par6" rend="indent">
+                    <lb facs="#p5r31"/>
+                    Tutta la scala di tutte le nostalgie e dell' attesa viene percorsa, partendo
+                    <lb facs="#p5r32"/>
+                    <w>dall<subst><del rend="overstrike">'</del><add hand="#typewriter" place="inline">a</add></subst></w> <del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">annuncio scritto</unclear></del> lettera che annuncia la <w>spediz<subst><del rend="overstrike">o</del><add hand="#typewriter" place="inline">i</add></subst>one</w> del pacchetto, passando
+                    <lb facs="#p5r33"/>
+                    per la <w>do<supplied reason="faded-ink" cert="high">m</supplied>anda</w>, posta a più riprese a distanza di alcuni giorni :<supplied resp="#MC #SP"><space resp="#MC #SP" quantity="1" unit="char"/></supplied><q type="mentioned">"Sono arrivati
+                    <lb facs="#p5r34"/>
+                    dei pacchi da <placeName>Tarsia</placeName>, oggi?"</q> fino all' annuncio dell' arrivo, che avviene di <w><supplied reason="faded-ink" cert="high">t</supplied>anto</w>
+                    <lb facs="#p5r35"/>
+                    in tanto. <w><supplied reason="faded-ink" cert="high">M</supplied>a</w> con ciò, il pacchetto non è ancora nelle <w><subst><del rend="overstrike"><gap reason="cancelled" quantity="2" unit="chars"/></del><add hand="#typewriter" place="inline">ma</add></subst>ni</w> del <ref target="#compagni">destinatario</ref>. <anchor xml:id="p5r35_i"/><w><supplied reason="faded-ink" cert="high">Q</supplied>uan<pc force="weak">-</pc>
+                    <lb facs="#p5r36" break="no"/>
+                    <span xml:id="span5" facs="#p5lat" rend="vertical-line" from="#p5r35_i" to="#p5r38_f"><metamark function="unclearly_text" resp="#writer" >?</metamark></span>
+                    do</w> l' auto <w><supplied reason="faded-ink" cert="high">a</supplied>ntidiluviana</w> è riuscita a giungere in porto, senza <w><supplied reason="faded-ink" cert="high">fe</supplied>rmarsi</w> per la <w>stra<pc force="weak">-</pc>
+                    <lb facs="#p5r37" break="no"/>
+                    <span target="#span5" facs="#p5lat" rend="vertical-line" from="#p5r35_i" to="#p5r38_f"><metamark function="unclearly_text" resp="#writer" >?</metamark></span>
+                    da</w> col suo carico <distinct resp="#MC #SP"><w>a<supplied reason="faded-ink" cert="high">mm</supplied>onticchiato</w></distinct>,<supplied resp="#MC #SP"><space resp="#MC #SP" quantity="1" unit="char"/></supplied><q type="thought" who="#AL"><pc force="strong">-</pc> a volte ci si fida persino di più dei carri <w>tir<supplied reason="faded-ink" cert="high">a</supplied><pc force="weak">-</pc>
+                    <lb facs="#p5r38" break="no"/>
+                    <span target="#span5" facs="#p5lat" rend="vertical-line" from="#p5r35_i" to="#p5r38_f"><metamark function="unclearly_text" resp="#writer" >?</metamark></span>
+                    ti</w> <w><supplied reason="faded-ink" cert="high">da</supplied></w> un mulo<pc force="strong">-</pc></q>  allora il <ref target="corriere"><w>cor<supplied reason="faded-ink" cert="high">r</supplied>iere</w></ref> si occupa dei pacchi. Quando poi i pacchi,<anchor xml:id="p5r38_f"/>
+                </ab>
+                
+            </div>
+            <!-- SESTA PAGINA -->
+            <div type="page" n="6" facs="#pagina6"> 
+                <pb n="6" facs="#pag6"/>
+
+                <fw type="heading" n="6" facs="#p6int">
+                    <lb facs="#p6int"/>          
+                        <milestone unit="section" facs="#p6r1_int"/>
+                        <fw type="header"><title rend="case(allcaps)">LA POSTA (<persName><forename><choice n="short"><abbr type="suspension">A<am>.</am></abbr><expan>A<ex resp="#MC #SP">rthur</ex></expan></choice></forename><supplied reason="omitted-in-original"><space resp="#MC #SP" quantity="1" unit="char"/></supplied><surname>Lehmann</surname></persName>)</title></fw>
+                        <space resp="#MC #SP" dim="horizontal" quantity="23" unit="chars"/>
+                        <milestone unit="section" facs="p6r1_num"/>
+                        <fw type="pageNum">= <num type="cardinal" value="4">4</num> =</fw>
+                </fw>
+
+                <ab type="paragraph" n="26" facs="#p6par1">
+                    <lb facs="#p6r2"/>
+                    <span xml:id="span6" facs="#p6lat" rend="vertical-line" from="#p6r2" to="#p6r4_f"><metamark function="unclearly_text" resp="#writer">?</metamark></span>
+                    <anchor xml:id="p6r2_i"/>con un elegante lancio <q type="mentioned"><pc force="strong">-</pc>Attenzione, Fragile!<pc force="strong">-</pc></q> sono stati scaricati nel piccolo
+                    <lb facs="#p6r3"/>
+                    <span target="#span6" facs="#p6lat" rend="vertical-line" from="#p6r2" to="#p6r4_f"><metamark function="unclearly_text" resp="#writer">?</metamark></span>
+                    locale <w>ris<supplied reason="faded-ink" cert="high">e</supplied>rvato</w> alla <name>Posta</name>, che <w>momentan<supplied reason="faded-ink" cert="high">e</supplied>a<supplied reason="faded-ink" cert="high">m</supplied>ente</w> ne è stipato, purchè ce ne sia
+                    <lb facs="#p6r4"/>
+                    <span target="#span6" facs="#p6lat" rend="vertical-line" from="#p6r2" to="#p6r4_f"><metamark function="unclearly_text" resp="#writer">?</metamark></span>
+                    il tempo e la buona volontà <w><supplied reason="faded-ink" cert="high">e</supplied></w> non <w>facci<supplied reason="faded-ink" cert="high">a</supplied></w> troppo caldo, perchè allora può <w><subst><del rend="overstrike">p</del><add hand="#typewriter" place="inline">t</add></subst>rascor<pc force="weak">-</pc><anchor xml:id="p6r4_i"/>
+                    <lb facs="#p6r5" break="no"/>
+                    r<supplied reason="faded-ink" cert="high">e</supplied>re</w> anche un' intera <w>giorn<supplied reason="faded-ink" cert="high">a</supplied>ta</w>, avviene la registrazione e la numerazione dei
+                    <lb facs="#p6r6"/>
+                    colli. Infine, <w>nell<supplied reason="faded-ink" cert="high">e</supplied></w> singole baracche i <ref target="#compagni">destinatari</ref> sono <w>chia<supplied reason="faded-ink" cert="high">m</supplied>ati</w> per il ritiro
+                    <lb facs="#p6r7"/>
+                    immediato da <ref target="#viennese"><persName><forename>Popi</forename></persName></ref>, il nostro <trait ref="#viennese"><desc>eccentrico</desc></trait> <ref target="#viennese">viennese</ref>, o da un altro <ref target="#messo"><w><subst><del rend="overstrike"><gap reason="cancelled" quantity="1" unit="chars"/></del><add hand="#typewriter" place="inline">m</add></subst>esso</w></ref>, che <w>ne<pc force="weak">-</pc>
+                    <lb facs="#p6r8" break="no"/>                    
+                    gli</w> ultimi tempi è il nostro <ref target="#messo"><persName><forename>Maxl</forename></persName></ref>. 
+                </ab>
+
+                <ab type="paragraph" n="27" facs="#p6par2" rend="indent"> 
+                    <lb facs="#p6r9"/>
+                    Una corsa alla posta, una rapida firma alla <w>ric<supplied reason="faded-ink" cert="high">e</supplied>vuta</w>, il <w><subst><del hand="#writer" rend="strikethrough">versamento</del><add hand="#writer" place="above">pagamento</add></subst></w> d' una
+                    <lb facs="#p6r10"/>                 
+                    piccola <w><subst><del hand="#writer" rend="strikethrough"><unclear reason="illegible" cert="low" resp="#MC #SP">moneta</unclear></del><add hand="#writer" place="above">tassa</add></subst></w> <w><choice n="new"><sic>a</sic><supplied reason="omitted-in-original"><space resp="#MC #SP" quantity="1" unit="char"/></supplied></choice></w> <q type="thought" who="#AL">(talvolta non tanto piccola)</q>, e poi si corre indietro alla baracca<subst><del rend="overstrike">?</del><add hand="#typewriter" place="inline">.</add></subst>
+                </ab>
+
+                <ab type="paragraph" n="28" facs="#p6par3" rend="indent"> 
+                    <lb facs="#p6r11"/>
+                    <w>Or<choice n="new" resp="#MC #SP"><sic>q</sic><corr>a</corr></choice></w> viene il momento dell' apertura. La corda, se non è già stata tolta,
+                    <lb facs="#p6r12"/>           
+                    assieme al piombino, alla posta, come <w>material<supplied reason="faded-ink" cert="high">e</supplied></w> prezioso, viene slegata <w>cauta<pc force="weak">-</pc>
+                    <lb facs="#p6r13" break="no"/>
+                    mente</w>. A volte i pacchi vengono censurati: c' è della <ref target="#compagni">gente</ref> che pensa che lo <w>fac<pc force="weak">-</pc>
+                    <lb facs="#p6r14" break="no"/> 
+                    ciano</w> per curiosità. <w><supplied reason="faded-ink" cert="high">G</supplied>li</w> occhi brillano indagando nell' <w>o<choice n="new" resp="#MC #SP"><sic>a</sic><corr>s</corr></choice>curità</w> della scatola.
+                    <lb facs="#p6r15"/>
+                    <w><choice n="new" resp="#MC #SP"><sic>s</sic><corr>S</corr></choice>i</w> fruga, si cerca, si accarezza ogni oggetto posto nel pacco dall' amore e 
+                    <lb facs="#p6r16"/> 
+                    dall' <w><supplied reason="faded-ink" cert="high">a</supplied>ttenzion<supplied reason="faded-ink" cert="high">e</supplied></w>. La gioia per i <w><supplied reason="faded-ink" cert="high">g</supplied>odimenti</w> corporali e spirituali s' irradia, 
+                    <lb facs="#p6r17"/>
+                    <distinct resp="#MC #SP">rattenuta</distinct> da <ref target="#compagni">tutti</ref> quasi con <w>segretez<supplied reason="faded-ink" cert="high">z</supplied>a</w> e gelosia, nel pensiero : <w><choice n="new"><sic>E'</sic><corr>è</corr></choice></w><seg rend="underline"> mia </seg><ref target="#famiglia">moglie</ref>,
+                    <lb facs="#p6r18"/>
+                    <seg rend="underline">mia </seg> <ref target="#famiglia">madre</ref> che mi <w><supplied reason="faded-ink" cert="high">m</supplied>anda</w> tutto questo. <w><supplied reason="faded-ink" cert="high">E</supplied></w> <ref target="#compagni">chi</ref> riceve il pacco, in tutta la sua 
+                    <lb facs="#p6r19"/>      
+                    solitudine, si sente riunito coi <w><supplied reason="faded-ink" cert="high">s</supplied>uoi</w> dalla felicità.
+                </ab>
+
+                <ab type="paragraph" n="29" facs="#p6par4" rend="indent"> 
+                    <lb facs="#p6r20"/>
+                    Vi sono pure altri <w>pac<supplied reason="faded-ink" cert="high">c</supplied>hetti</w>, il cui contenuto, di genere particolare,
+                    <lb facs="#p6r21"/>           
+                    è composto d' oggetti d' <w>inter<retrace>e</retrace>sse</w> generale, spediti non tanto per uso personale
+                    <lb facs="#p6r22"/>
+                    quanto, <w>dicia<supplied reason="faded-ink" cert="high">m</supplied>olo</w> subito senza reticenze, per la vendita, per il commercio.
+                    <lb facs="#p6r23"/>
+                    Qui i <ref target="#grossista">grossisti</ref> li vediamo trascinare <num type="cardinal" value="3">tre</num> o più pesanti pacchi con tutti gli  
+                    <lb facs="#p6r24"/>
+                    articoli possibili ed <w>impos<supplied reason="faded-ink" cert="high">s</supplied>ibili</w>. Ho visto della polvere per <w>budi<supplied reason="faded-ink" cert="high">n</supplied>i</w> <w>denuncia<pc force="weak">-</pc>
+                    <lb facs="#p6r25" break="no"/> 
+                    ta</w> come detersivo, dei cappelli di paglia in grandi ceste, sandali di gomma e 
+                    <lb facs="#p6r26"/>
+                    di legno d' ogni forma e colore, <distinct resp="#MC #SP">chincaglierie</distinct>, ferri da stiro, occhiali da sole,
+                    <lb facs="#p6r27"/> 
+                    cerniere lampo, in breve, tutto quello che può occorrere. Dopo aver disfatto il
+                    <lb facs="#p6r28"/> 
+                    pacco si fanno i conti, si contrassegnano le merci, i <ref target="#rivenditore">rivenditori</ref> si raccolgono
+                    <lb facs="#p6r29"/>      
+                    e s' interessano alle <w><supplied reason="faded-ink" cert="high">m</supplied>erci</w>. Tutto si svolge come in una piccola bottega.
+                </ab>
+
+                <ab type="paragraph" n="30" facs="#p6par5" rend="indent"> 
+                    <lb facs="#p6r30"/>
+                    C' è persino <w>u<subst><del rend="overstrike">,</del><add hand="#typewriter" place="inline">n</add></subst><subst><del hand="#typewriter" rend="overstrike"><gap reason="deleted" quantity="1" unit="char"/></del></subst></w> <span facs="#p6in" from="#p6r30_i" to="p6r30_f"><metamark function="unclearly_text" resp="#writer">?</metamark></span> <anchor xml:id="p6r30_i"/>flusso<anchor xml:id="p6r30_f"/> di denaro: ma di che portata? Ce n' è abbastanza
+                    <lb facs="#p6r31"/>           
+                    per morire di fame. Quando un <term>vaglia</term> arriva a <placeName>Tarsia</placeName>, lo mandano al campo.
+                    <lb facs="#p6r32"/>
+                    Si deve subito accusare la non ancora avvenuta ricezione del denaro, poi però
+                    <lb facs="#p6r33"/> 
+                    possono trascorrere ancora molti giorni, prima del pagamento effettivo, perchè
+                    <lb facs="#p6r34"/>
+                    l' ufficio postale principale di <placeName>Tarsia</placeName>, tanto per cambiare, non ha <w>disponibili<pc force="weak">-</pc>
+                    <lb facs="#p6r35" break="no"/> 
+                    tà</w> sufficienti per pagare tutti i <term>vaglia</term> e deve attendere finchè, magari anche
+                    <lb facs="#p6r36"/>
+                    con <w>versa<supplied reason="faded-ink" cert="high">m</supplied>enti</w> provenienti da <placeName><w><supplied reason="faded-ink" cert="high">F</supplied>erramonti</w></placeName> stessa, ha raccolto la somma occorrente.
+                    <lb facs="#p6r37"/> 
+                    Guai, quando giungono diversi <del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">vaglia</unclear></del> di questi <term>vaglia</term>, che pure sono urgentemente
+                    <lb facs="#p6r38"/>     
+                    necessari, per importi <w>consid<supplied reason="faded-ink" cert="high">e</supplied>revoli</w>: l' attesa si prolunga sempre più.
+                </ab>
+
+            </div>
+            <!-- SETTIMA PAGINA -->
+            <div type="page" n="7" facs="#pagina7">
+                <pb n="7" facs="#pag7"/>
+                
+                <fw type="heading" n="7" facs="#p7int">
+                    <lb facs="#p7int"/>          
+                        <milestone unit="section" facs="#p7r1_int"/>
+                        <fw type="header"><title rend="case(allcaps)">LA POSTA (<persName><forename><choice n="short"><abbr type="suspension">A<am>.</am></abbr><expan>A<ex resp="#MC #SP">rthur</ex></expan></choice></forename> <surname>Lehmann</surname></persName>)</title></fw>
+                        <space resp="#MC #SP" dim="horizontal" quantity="23" unit="chars"/>
+                        <milestone unit="section" facs="p7r1_num"/>
+                        <fw type="pageNum">= <num type="cardinal" value="5">5</num> =</fw>
+                </fw>
+
+                <ab type="paragraph" n="30" facs="#p7par1">
+                    <lb facs="#p7r2"/>
+                    Perciò, per motivi d' equità, l' ufficio di <placeName><w>T<supplied reason="faded-ink" cert="high">a</supplied>rsia</w></placeName> non fa distinzioni fra i <term>vaglia</term>
+                    <lb facs="#p7r3"/>
+                    ordinari e quelli telegrafici. E perchè poi? <placeName>Tarsia</placeName> dista <num type="cardinal" value="7">sette</num> <choice n="short"><abbr>km<am>.</am></abbr><expan>k<ex>ilo</ex>m<ex>etri</ex></expan></choice> da <placeName><w>Ferramon<pc force="weak">-</pc>
+                    <lb facs="#p7r4" break="no"/>     
+                    ti</w></placeName>, e <placeName>Roma</placeName> <num type="cardinal" value="1200">1200</num>.           
+                </ab>
+
+                <ab type="paragraph" n="31" facs="#p7par2" rend="indent"> 
+                    <lb facs="#p7r5"/>
+                    Per tutto il resto, l' ufficio postale di <placeName><w>Ferra<supplied reason="faded-ink" cert="high">m</supplied>onti</w></placeName> sbriga fattivamente
+                    <lb facs="#p7r6"/>
+                    e modestamente il suo compito, <w>appo<supplied reason="faded-ink" cert="high">g</supplied>giato</w> da <num type="cardinal" value="2">due</num> <ref target="#compagni">internati</ref>, ed è conscio della
+                    <lb facs="#p7r7"/>
+                    sua complessa funzione, come porta del mondo esterno. 
+                </ab>
+
+                <ab type="paragraph" n="32" facs="#p7par3" rend="indent"> 
+                    <lb facs="#p7r8"/>
+                    Sotto un solo aspetto, per ragioni inesplicabili, esso non è all' <w><subst><del rend="overstrike">l</del><add hand="#typewriter" place="inline">a</add></subst><retrace>l</retrace>tezza</w>
+                    <lb facs="#p7r9"/>
+                    del suo compito: non vende francobolli, sebbene la <w>c<supplied reason="faded-ink" cert="high">o</supplied>rrispondenza</w> spedita dagli
+                    <lb facs="#p7r10"/>          
+                    <ref target="#compagni">internati</ref>, lettere e cartoline, debba essere affrancata. Questa difficoltà <seg><subst><del hand="#writer" rend="scribble">è,</del><add hand="#writer" place="above">viene</add></subst></seg>
+                    <lb facs="#p7r11"/>
+                    <w><subst><del hand="#writer" rend="strikethrough">alleviata</del><add hand="#writer" place="above">rimossa</add></subst></w>, anzitutto dall' invio di <w>franc<supplied reason="faded-ink" cert="high">o</supplied>bolli</w> da parte <w>d<subst><del rend="overstrike">i</del><add hand="#typewriter" place="inline">e</add></subst>i</w> <ref target="#famiglia">congiunti</ref>, e poi, 
+                    <lb facs="#p7r12"/>
+                    con ordinazioni, a <w>nom<supplied reason="faded-ink" cert="high">e</supplied></w> delle singole camerate, di forti quantitativi di bolli, 
+                    <lb facs="#p7r13"/>   
+                    <w>cos<supplied reason="faded-ink" cert="high">a</supplied></w> <w>ch<supplied reason="faded-ink" cert="high">e</supplied></w>,<supplied resp="#MC #SP"><space resp="#MC #SP" quantity="1" unit="char"/></supplied>però, <w>richi<supplied reason="faded-ink" cert="high">e</supplied>de</w> un po' di tempo. Quando poi si <w>tr<supplied reason="faded-ink" cert="high">a</supplied>tta</w> di valori più
+                    <lb facs="#p7r14"/>
+                    alti, per <w>ese<supplied reason="faded-ink" cert="high">m</supplied>pio</w>, francobolli per posta aerea<del hand="#typewriter" rend="overstrike">,</del> per l' estero, questo <w><del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">semplice</unclear></del></w>
+                    <lb facs="#p7r15"/>
+                    problema, generalmente tanto semplice, diviene la pietra di paragone dell'<w><subst><del rend="overstrike"><gap reason="cancelled" quantity="1" unit="char"/></del><add hand="#typewriter" place="inline">a</add></subst>mi<pc force="weak">-</pc>
+                    <lb facs="#p7r16" break="no"/>   
+                    cizia</w>, nel caso che il <ref target="#compagni">compagno</ref> <forename>X</forename> sia disposto a <w>ve<supplied reason="faded-ink" cert="high">n</supplied>ire</w> in aiuto al <ref target="#compagni">compagno</ref> <forename>Y</forename>
+                    <lb facs="#p7r17"/>
+                    con la sua scorta<subst><del rend="overstrike"><gap reason="cancelled" quantity="1" unit="char"/></del><add hand="#typewriter" place="inline">,</add></subst><del hand="#typewriter" rend="overstrike"><gap reason="deleted" quantity="4" unit="chars"/></del> <w>custodi<subst><del rend="overstrike"><gap reason="cancelled" quantity="2" unit="chars"/></del><add hand="#typewriter" place="inline">ta</add></subst><del hand="#typewriter" rend="overstrike"><gap reason="deleted" quantity="1" unit="char"/></del></w> <w>gelosa<supplied reason="faded-ink" cert="high">m</supplied>ente</w>. E <w><del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">lo</unclear></del></w> <w><del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">aiuta</unclear></del></w> ci si aiuta.
+                    <lb facs="#p7r18"/>       
+                    La posta parte.
+                    <space dim="vertical" quantity="0" unit="lines"/>
+                    <lb facs="#p7par3_trat1"/>
+                    <metamark function="separation" place="center">=======</metamark>
+                </ab>
+                
+                <ab type="paragraph" n="33" facs="#p7par4" rend="indent"> 
+                    <lb facs="#p7r19"/>
+                    Quando, poco dopo aver scritto questo <w><del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">scherzo</unclear></del></w> quadretto, lo <w>les<supplied reason="faded-ink" cert="high">s</supplied>i</w> in un 
+                    <lb facs="#p7r20"/>    
+                    ristretto circolo, un <ref target="#compagno">compagno</ref> mi disse:
+                </ab>
+
+                <ab type="paragraph" n="34" facs="#p7par5" rend="indent"> 
+                    <lb facs="#p7r21"/>   
+                    <q type="spoken" who="#compagno" toWhom="#AL">"Lei ha dimenticato una <w>co<retrace>s</retrace>a!</w> "</q>
+                </ab>
+
+                <ab type="paragraph" n="35" facs="#p7par6" rend="indent"> 
+                    <lb facs="#p7r22"/>   
+                    <q type="spoken" who="#AL" toWhom="#compagno">"Davvero?"</q>
+                </ab>
+
+                <ab type="paragraph" n="36" facs="#p7par7" rend="indent"> 
+                    <lb facs="#p7r23"/>   
+                    <q type="spoken" who="#compagno" toWhom="#AL">"E' già <choice n="short"><abbr><num type="cardinal" value="1">un</num></abbr><expan>un<ex>o</ex></expan></choice> anno che sono internato e non ho ancora ricevuto dai miei
+                    <lb facs="#p7r24"/> 
+                    <ref target="#famiglia">parenti</ref> nè una lettera, nè una notizia, nè un pacco. Non so dove <ref target="#famiglia">essi</ref> <w><subst><del rend="overstrike">l</del><add hand="#typewriter" place="inline">s</add></subst>i</w> <w>tro<pc force="weak">-</pc>
+                    <lb facs="#p7r25" break="no"/> 
+                    vino</w>, ed <ref target="#famiglia">essi</ref> non sanno dove sono <ref target="#compagno">io</ref>. Ci sono anche molti <ref target="#compagni">altri</ref> nelle mie stesse
+                    <lb facs="#p7r26"/> 
+                    condizioni, nel campo. <subst><del rend="overstrike">j</del><add hand="#typewriter" place="inline">"</add></subst></q>
+                </ab>
+
+                <ab type="paragraph" n="37" facs="#p7par8" rend="indent"> 
+                    <lb facs="#p7r27"/>   
+                    Così disse un <ref target="profugo">profugo</ref> dalla <placeName>Polonia</placeName>, che aveva peregrinato a <w>lu<subst><del hand="#typewriter" rend="overstrike">l</del><add place="inline">n</add></subst>go</w> per
+                    <lb facs="#p7r28"/>   
+                    <w><retrace>s</retrace>fuggire</w> alla deportazione. Era un <seg rend="wavy_underline" ><ref target="profugo">essere</ref> contegnoso</seg>, una degna <ref target="profugo"><w>pers<supplied reason="faded-ink" cert="high">o</supplied>na</w></ref>.
+                </ab>
+
+                <ab type="paragraph" n="38" facs="#p7par9" rend="indent"> 
+                    <lb facs="#p7r29"/>   
+                    Il suo occhio era <w><supplied reason="faded-ink" cert="high">d</supplied>olorosamente</w> fisso nel vuoto.
+                </ab>
+
+                <ab type="paragraph" n="39" facs="#p7par10" rend="indent"> 
+                    <lb facs="#p7r30"/>
+                    <quote>Potete, cari <ref target="#lettore">lettori</ref>, <w><del hand="#typewriter" rend="overstrike"><unclear reason="illegible" cert="low" resp="#MC #SP">non</unclear></del></w> immaginare <add hand="#writer" place="above">lo stato d'animo e</add> le sensazioni <seg><del hand="#writer" rend="strikethrough">del cuore</del></seg> di questo
+                    <lb facs="#p7r31"/>  
+                    <ref target="#profugo">solitario</ref> della vita?</quote>
+                    <space dim="vertical" quantity="0" unit="lines"/>
+                    <lb facs="#p7par3_trat2"/> 
+                    <metamark function="separation" place="center">=======</metamark>
+                </ab>
+            </div>
+
+        </body>
+
+    </text>
+
+    <standOff> <!-- elemento contenitore per informazioni contestuali e annotazioni stand-off incorporate in un documento TEI -->
+        <list type="gloss">
+            <head>vocabolario</head>
+            <label>
+                <term ref="#trara" xml:lang="de">Trara, trara die Post ist da</term>
+            </label>
+            <item>
+                <gloss target="#trara" xml:lang="it" source="https://translate.google.it/?hl=it">Trara, trara, la posta è arrivata</gloss>
+            </item>
+
+            <label>
+                <term ref="#illus" xml:lang="de">Illustrierten</term>
+            </label>
+            <item>
+                <gloss target="#illus" xml:lang="it" source="https://translate.google.it/?hl=it">Riviste</gloss>
+            </item>
+        </list>
+    </standOff>
+
+</TEI>

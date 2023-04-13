@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin-left: 5%;
+	margin-right: 5%;
+	padding: 0;
+    background-size: 100%;
+	background-image: url('immagini/sfondo.png');
+    background-repeat: repeat;
+}
+
+#title{
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 3em;
+    margin-top: 5%;
+}
+
+#subtitle{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.2em;
+    margin-bottom: 5%;
+}
+
+div#int{
+    padding: 2.3%;
+    background-color: gainsboro;
+    margin: 0 0 5% 0;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+div#note{
+    padding: 2.3%;
+    background-color: gainsboro;
+    margin: 5% 0 5% 0;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: gray;
+}
+
+div.legenda{
+    text-align: left;
+    border-radius: 10px;
+    padding: 0 2.3% 2.3% 2.3%;
+    margin: 0 0 5% 0;
+    background-color: white;
+    width: 40%;
+    line-height: 1.6;
+    display: inline-block;
+}
+
+div.legenda h3{
+   font-size: 1.2em;
+}
+
+div#leg1{
+    margin-right: 5%;
+    line-height: 2;
+}
+
+div#leg2{
+    margin-left: 5%;
+}
+
+div.pages{
+    background-color: white;
+    border-radius: 10px;
+    padding: 0 2% 2% 2%;
+    font-size: 1.05em;
+}
+
+
+#p1, #p2, #p3, #p4, #p5, #p6, #p7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    vertical-align: middle;
+}
+
+div img{
+    width: 100%;
+}
+
+div.int{
+    padding: 2%;
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+div.desc{
+    padding: 2%;
+    grid-column: 2;
+    grid-row: 1;
+    line-height: 1.5;
+}
+
+hr{
+    color: black;
+}
+
+footer{
+    text-align: center;
+    margin: 5% -5% 1% -5%;
+    padding: 2.3%;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.subst{
+    background-color: bisque;
+}
+
+.del{
+    color: slategray;
+    text-decoration-line: line-through;
+    text-decoration-color: black;
+}
+
+.add{
+    color: red;
+}
+
+.term{
+    color: seagreen;
+}
+
+.foreign{
+    background-color: khaki;
+}
+
+.trad{
+    color: olive;
+}
+
+.short{
+    background-color: lightblue;
+}
+
+.expan{
+    color: white;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.wavy{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.new{
+    background-color: lightgrey;
+}
+
+.sic{
+    color: brown;
+    text-decoration-line: line-through;
+}
+
+.faded{
+    color: darkorchid;
+}
+
+.omitted{
+    color: violet;
+}
+
+.retrace{
+    font-weight: bold;
+}
+
+.distinct{
+    color: mediumblue;
+}
+
+.p{
+    margin-top: 10px;
+}
+
+.metaspan{
+    background-color: darkorange;
+}
+
+.gap{
+    color: peru;
+}
